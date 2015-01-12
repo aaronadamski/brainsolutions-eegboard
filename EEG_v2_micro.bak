@@ -32,9 +32,9 @@ LIBS:texas_mod
 LIBS:EEG_v2-cache
 EELAYER 27 0
 EELAYER END
-$Descr A 11000 8500
+$Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 4
+Sheet 2 4
 Title "Project Synapse Prototype Board"
 Date "12 jan 2015"
 Rev "A.b"
@@ -44,29 +44,4 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 2300 4200 1550 1600
-U 54B458F2
-F0 "Microcontroller" 50
-F1 "EEG_v2_micro.sch" 50
-$EndSheet
-$Sheet
-S 7000 4200 1550 1550
-U 54B45B18
-F0 "Analog Frontend" 50
-F1 "EEG_v2_analog.sch" 50
-F2 "RESET" I L 7000 4350 60 
-F3 "START" I L 7000 4250 60 
-F4 "CS" I L 7000 4450 60 
-F5 "SCLK" I L 7000 4550 60 
-F6 "DIN" I L 7000 4650 60 
-F7 "DOUT" O L 7000 4750 60 
-F8 "DRDY" O L 7000 4850 60 
-$EndSheet
-$Sheet
-S 4600 1900 2100 1350
-U 54B47D54
-F0 "Power" 50
-F1 "EEG_v2_power.sch" 50
-$EndSheet
 $EndSCHEMATC
