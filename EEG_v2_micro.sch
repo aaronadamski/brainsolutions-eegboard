@@ -34,7 +34,7 @@ EELAYER 27 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 2 4
+Sheet 4 4
 Title "Project Synapse Prototype Board"
 Date "13 jan 2015"
 Rev "A.b"
@@ -288,4 +288,49 @@ Wire Wire Line
 	7850 2600 8000 2600
 Connection ~ 7150 2000
 Connection ~ 7150 2600
+$Comp
+L AGND #PWR?
+U 1 1 54B4E516
+P 5700 4700
+F 0 "#PWR?" H 5700 4700 40  0001 C CNN
+F 1 "AGND" H 5700 4630 50  0000 C CNN
+F 2 "~" H 5700 4700 60  0000 C CNN
+F 3 "~" H 5700 4700 60  0000 C CNN
+	1    5700 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 4650 5700 4650
+Wire Wire Line
+	5700 4650 5700 4700
+$Comp
+L AGND #PWR?
+U 1 1 54B4E69D
+P 3800 3950
+F 0 "#PWR?" H 3800 3950 40  0001 C CNN
+F 1 "AGND" H 3800 3880 50  0000 C CNN
+F 2 "~" H 3800 3950 60  0000 C CNN
+F 3 "~" H 3800 3950 60  0000 C CNN
+	1    3800 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3800 3800 3800
+Wire Wire Line
+	3800 3800 3800 3950
+Text HLabel 5500 5600 3    60   Output ~ 0
+MOSI
+Text HLabel 5600 5600 3    60   Input ~ 0
+MISO
+Text HLabel 5300 5600 3    60   Output ~ 0
+SCK
+NoConn ~ 7200 3800
+Wire Wire Line
+	5300 5400 5300 5600
+Wire Wire Line
+	5500 5400 5500 5600
+Wire Wire Line
+	5600 5400 5600 5600
+Text Notes 10100 4200 2    60   ~ 0
+Note: Will integrate balun into one Murata component as in app note.\n Need antenna symbol also.
 $EndSCHEMATC

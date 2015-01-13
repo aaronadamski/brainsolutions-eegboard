@@ -45,12 +45,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 2300 4200 1550 1600
-U 54B458F2
-F0 "Microcontroller" 50
-F1 "EEG_v2_micro.sch" 50
-$EndSheet
-$Sheet
 S 7000 4200 1550 1550
 U 54B45B18
 F0 "Analog Frontend" 50
@@ -69,4 +63,19 @@ U 54B47D54
 F0 "Power" 50
 F1 "EEG_v2_power.sch" 50
 $EndSheet
+$Sheet
+S 2300 4200 1550 1600
+U 54B458F2
+F0 "Microcontroller" 50
+F1 "EEG_v2_micro.sch" 50
+F2 "MOSI" O R 3850 4650 60 
+F3 "MISO" I R 3850 4750 60 
+F4 "SCK" O R 3850 4550 60 
+$EndSheet
+Wire Wire Line
+	3850 4550 7000 4550
+Wire Wire Line
+	7000 4650 3850 4650
+Wire Wire Line
+	3850 4750 7000 4750
 $EndSCHEMATC
