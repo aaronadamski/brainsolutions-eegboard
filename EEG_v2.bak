@@ -36,7 +36,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 4
 Title "Project Synapse Prototype Board"
-Date "12 jan 2015"
+Date "13 jan 2015"
 Rev "A.b"
 Comp "Senior Design 14-15"
 Comment1 ""
@@ -69,6 +69,4 @@ U 54B47D54
 F0 "Power" 50
 F1 "EEG_v2_power.sch" 50
 $EndSheet
-Text Notes 6850 3450 2    60   ~ 0
-Note: Using global labels for power and ground.
 $EndSCHEMATC

@@ -36,7 +36,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 2 4
 Title "Project Synapse Prototype Board"
-Date "12 jan 2015"
+Date "13 jan 2015"
 Rev "A.b"
 Comp "Senior Design 14-15"
 Comment1 ""
@@ -44,4 +44,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L CC2540 U6
+U 1 1 54B4D13C
+P 5450 4250
+F 0 "U6" H 5450 4150 60  0000 C CNN
+F 1 "CC2540" H 5450 4300 60  0000 C CNN
+F 2 "" H 5450 4300 60  0000 C CNN
+F 3 "" H 5450 4300 60  0000 C CNN
+	1    5450 4250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
