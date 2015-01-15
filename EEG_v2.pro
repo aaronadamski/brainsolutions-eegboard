@@ -1,4 +1,4 @@
-update=1/11/2015 11:42:08 AM
+update=Wed 14 Jan 2015 03:48:35 PM PST
 version=1
 last_client=eeschema
 [cvpcb]
@@ -84,3 +84,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=texas_mod
+LibName31=johanson
