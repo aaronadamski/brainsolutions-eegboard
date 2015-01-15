@@ -37,7 +37,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 4 4
 Title "Project Synapse Prototype Board"
-Date "14 jan 2015"
+Date "15 jan 2015"
 Rev "A.b"
 Comp "Senior Design 14-15"
 Comment1 ""
@@ -486,7 +486,7 @@ Connection ~ 5450 4500
 Wire Wire Line
 	3850 1400 3850 3700
 Wire Wire Line
-	2850 4700 3000 4700
+	2750 4700 3000 4700
 Wire Wire Line
 	2050 5300 3000 5300
 Connection ~ 2850 4700
@@ -626,4 +626,124 @@ Wire Wire Line
 	9900 4800 9900 4400
 Text Notes 9550 4350 0    60   ~ 0
 Antenna (50 Ohm)
+Text HLabel 3050 6600 0    60   Input ~ 0
+DRDY
+Text HLabel 3050 6800 0    60   Output ~ 0
+START
+Text HLabel 4000 7000 0    60   Output ~ 0
+CS
+Text HLabel 3950 7200 0    60   Output ~ 0
+RESET
+$Comp
+L C C?
+U 1 1 54B75300
+P 3050 1700
+F 0 "C?" H 3050 1800 40  0000 L CNN
+F 1 "10p" H 3056 1615 40  0000 L CNN
+F 2 "0402_NP0_J_50" H 3088 1550 30  0000 C CNN
+F 3 "~" H 3050 1700 60  0000 C CNN
+	1    3050 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L AGND #PWR?
+U 1 1 54B75306
+P 3050 2000
+F 0 "#PWR?" H 3050 2000 40  0001 C CNN
+F 1 "AGND" H 3050 1930 50  0000 C CNN
+F 2 "~" H 3050 2000 60  0000 C CNN
+F 3 "~" H 3050 2000 60  0000 C CNN
+	1    3050 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 1900 3050 2000
+Wire Wire Line
+	2750 4700 2750 1400
+Connection ~ 2750 1400
+Wire Wire Line
+	3050 1500 2750 1500
+Connection ~ 2750 1500
+Wire Wire Line
+	3000 4500 1550 4500
+Wire Wire Line
+	3000 4600 1550 4600
+$Comp
+L R R?
+U 1 1 54B7579A
+P 1300 4350
+F 0 "R?" V 1380 4350 40  0000 C CNN
+F 1 "33" V 1307 4351 40  0000 C CNN
+F 2 "0402_G" V 1230 4350 30  0000 C CNN
+F 3 "~" H 1300 4350 30  0000 C CNN
+	1    1300 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 54B757A0
+P 1300 4750
+F 0 "R?" V 1380 4750 40  0000 C CNN
+F 1 "33" V 1307 4751 40  0000 C CNN
+F 2 "0402_G" V 1230 4750 30  0000 C CNN
+F 3 "~" H 1300 4750 30  0000 C CNN
+	1    1300 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1550 4600 1550 4750
+Wire Wire Line
+	1550 4500 1550 4350
+Wire Wire Line
+	1050 4350 800  4350
+Wire Wire Line
+	1050 4750 800  4750
+$Comp
+L C C?
+U 1 1 54B75968
+P 1800 4800
+F 0 "C?" H 1800 4900 40  0000 L CNN
+F 1 "47p" H 1806 4715 40  0000 L CNN
+F 2 "0402_NP0_J_50" H 1838 4650 30  0000 C CNN
+F 3 "~" H 1800 4800 60  0000 C CNN
+	1    1800 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 54B75989
+P 1800 4300
+F 0 "C?" H 1800 4400 40  0000 L CNN
+F 1 "47p" H 1806 4215 40  0000 L CNN
+F 2 "0402_NP0_J_50" H 1838 4150 30  0000 C CNN
+F 3 "~" H 1800 4300 60  0000 C CNN
+	1    1800 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L AGND #PWR?
+U 1 1 54B75999
+P 1800 5050
+F 0 "#PWR?" H 1800 5050 40  0001 C CNN
+F 1 "AGND" H 1800 4980 50  0000 C CNN
+F 2 "~" H 1800 5050 60  0000 C CNN
+F 3 "~" H 1800 5050 60  0000 C CNN
+	1    1800 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L AGND #PWR?
+U 1 1 54B7599F
+P 1800 4000
+F 0 "#PWR?" H 1800 4000 40  0001 C CNN
+F 1 "AGND" H 1800 3930 50  0000 C CNN
+F 2 "~" H 1800 4000 60  0000 C CNN
+F 3 "~" H 1800 4000 60  0000 C CNN
+	1    1800 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1800 4000 1800 4100
+Wire Wire Line
+	1800 5000 1800 5050
 $EndSCHEMATC

@@ -37,7 +37,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 4
 Title "Project Synapse Prototype Board"
-Date "14 jan 2015"
+Date "15 jan 2015"
 Rev "A.b"
 Comp "Senior Design 14-15"
 Comment1 ""
@@ -72,6 +72,10 @@ F1 "EEG_v2_micro.sch" 50
 F2 "MOSI" O R 3850 4650 60 
 F3 "MISO" I R 3850 4750 60 
 F4 "SCK" O R 3850 4550 60 
+F5 "DRDY" I R 3850 4850 60 
+F6 "START" O R 3850 4250 60 
+F7 "CS" O R 3850 4450 60 
+F8 "RESET" O R 3850 4350 60 
 $EndSheet
 Wire Wire Line
 	3850 4550 7000 4550
@@ -79,4 +83,12 @@ Wire Wire Line
 	7000 4650 3850 4650
 Wire Wire Line
 	3850 4750 7000 4750
+Wire Wire Line
+	3850 4250 7000 4250
+Wire Wire Line
+	3850 4850 7000 4850
+Wire Wire Line
+	3850 4450 7000 4450
+Wire Wire Line
+	7000 4350 3850 4350
 $EndSCHEMATC

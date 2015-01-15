@@ -35,9 +35,9 @@ EELAYER 27 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 3 4
+Sheet 2 4
 Title "Project Synapse Prototype Board"
-Date "14 jan 2015"
+Date "15 jan 2015"
 Rev "A.b"
 Comp "Senior Design 14-15"
 Comment1 ""
