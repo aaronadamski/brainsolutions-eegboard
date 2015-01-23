@@ -37,7 +37,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 4
 Title "Project Synapse Prototype Board"
-Date "15 jan 2015"
+Date "23 jan 2015"
 Rev "A.b"
 Comp "Senior Design 14-15"
 Comment1 ""
@@ -75,7 +75,12 @@ F4 "SCK" O R 3850 4550 60
 F5 "DRDY" I R 3850 4850 60 
 F6 "START" O R 3850 4250 60 
 F7 "CS" O R 3850 4450 60 
-F8 "RESET" O R 3850 4350 60 
+F8 "RESET_ADS" O R 3850 4350 60 
+F9 "USB_P" B L 2300 4550 60 
+F10 "USB_N" B L 2300 4650 60 
+F11 "RESET_N" I L 2300 5300 60 
+F12 "DC" I L 2300 5100 60 
+F13 "DD" B L 2300 5200 60 
 $EndSheet
 Wire Wire Line
 	3850 4550 7000 4550
