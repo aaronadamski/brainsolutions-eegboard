@@ -30,6 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:texas_mod
 LIBS:johanson
+LIBS:conn_mod
 LIBS:EEG_v2-cache
 EELAYER 27 0
 EELAYER END
@@ -383,6 +384,4 @@ Wire Wire Line
 	6150 4450 6150 4650
 Text HLabel 2950 3050 0    60   UnSpc ~ 0
 VIN_RAW
-Text HLabel 2950 3700 0    60   UnSpc ~ 0
-GND
 $EndSCHEMATC

@@ -1,0 +1,15 @@
+EESchema-LIBRARY Version 2.3  Date: 1/23/2015 3:17:16 PM
+#encoding utf-8
+#
+# USB_A
+#
+DEF USB_A U 0 40 Y Y 1 F N
+F0 "U" 0 0 60 H V C CNN
+F1 "USB_A" 0 0 60 H V C CNN
+F2 "~" 0 0 60 H V C CNN
+F3 "~" 0 0 60 H V C CNN
+DRAW
+ENDDRAW
+ENDDEF
+#
+#End Library

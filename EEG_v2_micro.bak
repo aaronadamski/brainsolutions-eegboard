@@ -30,6 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:texas_mod
 LIBS:johanson
+LIBS:conn_mod
 LIBS:EEG_v2-cache
 EELAYER 27 0
 EELAYER END
