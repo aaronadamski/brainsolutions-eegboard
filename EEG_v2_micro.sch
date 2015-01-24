@@ -624,8 +624,6 @@ Wire Wire Line
 	9400 4800 9900 4800
 Wire Wire Line
 	9900 4600 9900 4950
-Text Notes 9500 3800 0    60   ~ 0
-Antenna (50 Ohm)
 Text HLabel 4400 6200 3    60   Input ~ 0
 DRDY
 Text HLabel 4500 6200 3    60   Output ~ 0

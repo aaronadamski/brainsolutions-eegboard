@@ -191,9 +191,7 @@ F 3 "~" H 2750 3350 60  0000 C CNN
 	1    2750 3350
 	1    0    0    -1  
 $EndComp
-Text Notes 2550 2900 0    60   ~ 0
-BATT_+
-Text Label 2650 2900 0    60   ~ 0
+Text Label 2550 2900 0    60   ~ 0
 BATT_+
 Text Notes 2550 3250 0    60   ~ 0
 BATT_-
