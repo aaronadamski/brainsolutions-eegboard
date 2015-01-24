@@ -234,4 +234,6 @@ F 3 "~" H 2750 6000 60  0000 C CNN
 	1    2750 6000
 	-1   0    0    1   
 $EndComp
+Text Notes 1950 6250 0    60   ~ 0
+Note: May change to VIN_RAW instead. Will test first.
 $EndSCHEMATC
