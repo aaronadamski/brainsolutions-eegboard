@@ -38,7 +38,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 4
 Title "Project Synapse Prototype Board"
-Date "23 jan 2015"
+Date "24 jan 2015"
 Rev "A.b"
 Comp "Senior Design 14-15"
 Comment1 ""
@@ -80,9 +80,9 @@ F7 "CS" O R 6450 4450 60
 F8 "RESET_ADS" O R 6450 4350 60 
 F9 "USB_P" B L 4900 4650 60 
 F10 "USB_N" B L 4900 4550 60 
-F11 "RESET_N" I L 4900 5300 60 
-F12 "DC" I L 4900 5100 60 
-F13 "DD" B L 4900 5200 60 
+F11 "RESET_N" I L 4900 5700 60 
+F12 "DC" I L 4900 5500 60 
+F13 "DD" B L 4900 5600 60 
 $EndSheet
 $Comp
 L USB_A P?
@@ -116,7 +116,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 4750 2750 4750
 Wire Wire Line
-	2750 4750 2750 5100
+	2750 4750 2750 5400
 Wire Wire Line
 	2650 4850 2750 4850
 Connection ~ 2750 4850
@@ -126,13 +126,13 @@ Connection ~ 2750 4950
 $Comp
 L AGND #PWR?
 U 1 1 54C3BF39
-P 2750 5100
-F 0 "#PWR?" H 2750 5100 40  0001 C CNN
-F 1 "AGND" H 2750 5030 50  0000 C CNN
-F 2 "~" H 2750 5100 60  0000 C CNN
-F 3 "~" H 2750 5100 60  0000 C CNN
-	1    2750 5100
-	1    0    0    -1  
+P 3100 5100
+F 0 "#PWR?" H 3100 5100 40  0001 C CNN
+F 1 "AGND" H 3100 5030 50  0000 C CNN
+F 2 "~" H 3100 5100 60  0000 C CNN
+F 3 "~" H 3100 5100 60  0000 C CNN
+	1    3100 5100
+	0    -1   -1   0   
 $EndComp
 $Comp
 L SPST SW?
@@ -197,4 +197,41 @@ Text Label 2650 2900 0    60   ~ 0
 BATT_+
 Text Notes 2550 3250 0    60   ~ 0
 BATT_-
+$Comp
+L CONN_5 P?
+U 1 1 54C4DEF5
+P 2200 5600
+F 0 "P?" V 2150 5600 50  0000 C CNN
+F 1 "CONN_5" V 2250 5600 50  0000 C CNN
+F 2 "~" H 2200 5600 60  0000 C CNN
+F 3 "~" H 2200 5600 60  0000 C CNN
+	1    2200 5600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2750 5400 2600 5400
+Wire Wire Line
+	2750 5100 3100 5100
+Connection ~ 2750 5100
+Wire Wire Line
+	2600 5500 4900 5500
+Wire Wire Line
+	2600 5600 4900 5600
+Wire Wire Line
+	4900 5700 2600 5700
+Wire Wire Line
+	2600 5800 2750 5800
+Wire Wire Line
+	2750 5800 2750 6000
+$Comp
+L +3.3V #PWR?
+U 1 1 54C4F12C
+P 2750 6000
+F 0 "#PWR?" H 2750 5960 30  0001 C CNN
+F 1 "+3.3V" H 2750 6110 30  0000 C CNN
+F 2 "~" H 2750 6000 60  0000 C CNN
+F 3 "~" H 2750 6000 60  0000 C CNN
+	1    2750 6000
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
