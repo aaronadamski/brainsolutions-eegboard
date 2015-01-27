@@ -471,17 +471,6 @@ F 3 "" H 3150 5950 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	3300 4950 3150 4950
-$Comp
-L SMD_1PIN_PAD J1
-U 1 1 54B45EA3
-P 1400 4150
-F 0 "J1" H 1400 4150 30  0000 C CNN
-F 1 "BIAS" H 1650 4150 30  0000 C CNN
-F 2 "~" H 1400 4150 60  0000 C CNN
-F 3 "~" H 1400 4150 60  0000 C CNN
-	1    1400 4150
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5700 2750 5850 2750
 Wire Wire Line
@@ -969,7 +958,7 @@ $EndComp
 Text HLabel 7650 4750 2    60   Input ~ 0
 AIN5P
 Text HLabel 7650 5550 2    60   Input ~ 0
-AIN1N
+AIN5N
 Wire Wire Line
 	7650 4750 7550 4750
 Wire Wire Line
@@ -978,7 +967,7 @@ Wire Wire Line
 	5700 4750 7050 4750
 Connection ~ 7000 4750
 Wire Wire Line
-	6800 5550 7050 5550
+	6550 5550 7050 5550
 Connection ~ 7000 5550
 $Comp
 L C C?
@@ -1038,18 +1027,18 @@ F 3 "~" H 7300 6550 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text HLabel 7650 5750 2    60   Input ~ 0
-AIN1P
+AIN6P
 Text HLabel 7650 6550 2    60   Input ~ 0
-AIN1N
+AIN6N
 Wire Wire Line
 	7650 5750 7550 5750
 Wire Wire Line
 	7650 6550 7550 6550
 Wire Wire Line
-	6800 5750 7050 5750
+	6500 5750 7050 5750
 Connection ~ 7000 5750
 Wire Wire Line
-	6800 6550 7050 6550
+	6450 6550 7050 6550
 Connection ~ 7000 6550
 $Comp
 L C C?
@@ -1109,18 +1098,18 @@ F 3 "~" H 7300 7550 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text HLabel 7650 6750 2    60   Input ~ 0
-AIN1P
+AIN7P
 Text HLabel 7650 7550 2    60   Input ~ 0
-AIN1N
+AIN7N
 Wire Wire Line
 	7650 6750 7550 6750
 Wire Wire Line
 	7650 7550 7550 7550
 Wire Wire Line
-	6800 6750 7050 6750
+	6400 6750 7050 6750
 Connection ~ 7000 6750
 Wire Wire Line
-	6800 7550 7050 7550
+	6350 7550 7050 7550
 Connection ~ 7000 7550
 $Comp
 L C C?
@@ -1180,18 +1169,18 @@ F 3 "~" H 7300 8550 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text HLabel 7650 7750 2    60   Input ~ 0
-AIN1P
+AIN8P
 Text HLabel 7650 8550 2    60   Input ~ 0
-AIN1N
+AIN8N
 Wire Wire Line
 	7650 7750 7550 7750
 Wire Wire Line
 	7650 8550 7550 8550
 Wire Wire Line
-	6800 7750 7050 7750
+	6300 7750 7050 7750
 Connection ~ 7000 7750
 Wire Wire Line
-	6200 8550 7050 8550
+	6250 8550 7050 8550
 Connection ~ 7000 8550
 Wire Wire Line
 	5700 3950 6200 3950
@@ -1226,7 +1215,41 @@ Wire Wire Line
 Wire Wire Line
 	6550 4650 6550 4600
 Wire Wire Line
-	6200 8550 6200 5450
+	6250 8550 6250 5450
 Wire Wire Line
-	6200 5450 5700 5450
+	6250 5450 5700 5450
+Wire Wire Line
+	6550 5550 6550 4850
+Wire Wire Line
+	6550 4850 5700 4850
+Wire Wire Line
+	6500 5750 6500 4950
+Wire Wire Line
+	6500 4950 5700 4950
+Wire Wire Line
+	6450 6550 6450 5050
+Wire Wire Line
+	6450 5050 5700 5050
+Wire Wire Line
+	6400 6750 6400 5150
+Wire Wire Line
+	6400 5150 5700 5150
+Wire Wire Line
+	6350 7550 6350 5250
+Wire Wire Line
+	6350 5250 5700 5250
+Wire Wire Line
+	6300 7750 6300 5350
+Wire Wire Line
+	6300 5350 5700 5350
+Text HLabel 5900 5550 2    60   BiDi ~ 0
+SRB1
+Text HLabel 5900 5650 2    60   BiDi ~ 0
+SRB2
+Wire Wire Line
+	5700 5550 5900 5550
+Wire Wire Line
+	5900 5650 5700 5650
+Text HLabel 1750 4150 0    60   BiDi ~ 0
+BIAS
 $EndSCHEMATC
