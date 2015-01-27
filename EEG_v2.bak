@@ -38,7 +38,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 4
 Title "Project Synapse Prototype Board"
-Date "24 jan 2015"
+Date "27 jan 2015"
 Rev "A.b"
 Comp "Senior Design 14-15"
 Comment1 ""
