@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source E:/Users/Beugul/Documents/SeniorDesign/EEG_Project/brainsolutions-eegboard/EEG_v2.sch)
-    (date "1/29/2015 12:31:00 PM")
+    (date "1/29/2015 1:31:57 PM")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
     (comp (ref P2)
@@ -594,6 +594,7 @@
       (tstamp 54B7105B))
     (comp (ref U7)
       (value 2450BM15A0002E)
+      (footprint 2450BM15A0002E)
       (libsource (lib johanson) (part 2450BM15A0002E))
       (sheetpath (names /Microcontroller/) (tstamps /54B458F2/))
       (tstamp 54B71B33))
