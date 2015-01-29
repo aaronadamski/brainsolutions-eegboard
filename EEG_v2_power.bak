@@ -38,7 +38,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 3 4
 Title "Project Synapse Prototype Board"
-Date "28 jan 2015"
+Date "29 jan 2015"
 Rev "A.b"
 Comp "Senior Design 14-15"
 Comment1 ""
@@ -63,7 +63,7 @@ U 1 1 54B47F3C
 P 7700 3250
 F 0 "U4" H 7700 3250 60  0000 C CNN
 F 1 "TLV70025" H 7550 3550 60  0000 C CNN
-F 2 "" H 7700 3250 60  0000 C CNN
+F 2 "TSOT23-5" H 7600 2950 60  0000 C CNN
 F 3 "" H 7700 3250 60  0000 C CNN
 	1    7700 3250
 	1    0    0    -1  
@@ -74,7 +74,7 @@ U 1 1 54B47F42
 P 5300 3250
 F 0 "U2" H 5300 3250 60  0000 C CNN
 F 1 "TLV70033" H 5150 3550 60  0000 C CNN
-F 2 "" H 5300 3250 60  0000 C CNN
+F 2 "TSOT23-5" H 5200 2950 60  0000 C CNN
 F 3 "" H 5300 3250 60  0000 C CNN
 	1    5300 3250
 	1    0    0    -1  

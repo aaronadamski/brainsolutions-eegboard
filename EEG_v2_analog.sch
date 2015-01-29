@@ -38,7 +38,7 @@ $Descr USLetter 8500 11000 portrait
 encoding utf-8
 Sheet 2 4
 Title "Project Synapse Prototype Board"
-Date "28 jan 2015"
+Date "29 jan 2015"
 Rev "A.b"
 Comp "Senior Design 14-15"
 Comment1 ""
