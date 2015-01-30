@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 1/29/2015 10:23:27 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 1/30/2015 2:51:43 PM
 
 BeginCmp
 TimeStamp = /54B45B18/54C7F82B;
@@ -683,21 +683,21 @@ BeginCmp
 TimeStamp = /54CABD6B;
 Reference = SW2;
 ValeurCmp = RESET;
-IdModule  = Thru 1825910;
+IdModule  = 2-1825910-7;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B458F2/54CBF5D1;
 Reference = SW3;
 ValeurCmp = SW_PUSH;
-IdModule  = Thru 1825910;
+IdModule  = 2-1825910-7;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B458F2/54CBFC84;
 Reference = SW4;
 ValeurCmp = SW_PUSH;
-IdModule  = Thru 1825910;
+IdModule  = 2-1825910-7;
 EndCmp
 
 BeginCmp
@@ -781,14 +781,14 @@ BeginCmp
 TimeStamp = /54B458F2/54B4E2E4;
 Reference = X1;
 ValeurCmp = 32-KHz;
-IdModule  = ;
+IdModule  = FC-135R_EPSON;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B458F2/54B4E091;
 Reference = X2;
 ValeurCmp = 32-MHz;
-IdModule  = 10/20/60/10;
+IdModule  = FA-128_EPSON;
 EndCmp
 
 EndListe
