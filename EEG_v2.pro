@@ -1,4 +1,4 @@
-update=1/29/2015 12:25:17 PM
+update=1/29/2015 8:27:08 PM
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -87,3 +87,4 @@ LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
 LibName17=Measurement_Point_RevA
+LibName18=conn_mod
