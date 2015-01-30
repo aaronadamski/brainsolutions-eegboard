@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  1/29/2015 11:07:01 PM
+PCBNEW-LibModule-V1  1/30/2015 9:41:03 AM
 # encoding utf-8
 Units mm
 $INDEX
@@ -310,7 +310,7 @@ Po 8.89 0
 $EndPAD
 $EndMODULE SIL-8
 $MODULE VQFN40
-Po 0 0 0 15 54CB29D5 00000000 ~~
+Po 0 0 0 15 54CBC22E 00000000 ~~
 Li VQFN40
 Sc 0
 AR 
@@ -321,84 +321,466 @@ Op 0 0 0
 T0 8.7 -5.1 1 1 0 0.15 N V 21 N "VQFN40"
 T1 3.5 -5.3 1 1 0 0.15 N V 21 N "VAL**"
 $PAD
-Sh "1" R 0.28 0.71 0 0 0
+Sh "1" O 1 0.28 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1 0.355
-.SolderMask 0.07
-.SolderPaste 0.07
-.LocalClearance 0.07
+Po -3.05 -2.25
 $EndPAD
 $PAD
-Sh "1" C 0.28 0.28 0 0 0
+Sh "2" O 1 0.28 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1 0
-.SolderMask 0.07
-.SolderPaste 0.07
-.LocalClearance 0.07
+Po -3.05 -1.75
 $EndPAD
 $PAD
-Sh "2" C 0.28 0.28 0 0 0
+Sh "3" O 1 0.28 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1.5 0
-.SolderMask 0.07
-.SolderPaste 0.07
-.LocalClearance 0.07
+Po -3.05 -1.25
 $EndPAD
 $PAD
-Sh "2" R 0.28 0.71 0 0 0
+Sh "4" O 1 0.28 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 3.5 -0.135
-.SolderMask 0.07
-.SolderPaste 0.07
-.LocalClearance 0.07
+Po -3.05 -0.75
 $EndPAD
 $PAD
-Sh "2" R 0.28 0.71 0 0 0
+Sh "5" O 1 0.28 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1 0.11
-.SolderMask 0.07
-.SolderPaste 0.07
-.LocalClearance 0.07
+Po -3.05 -0.25
 $EndPAD
 $PAD
-Sh "2" C 0.28 0.28 0 0 0
+Sh "6" O 1 0.28 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0.5 0
-.SolderMask 0.07
-.SolderPaste 0.07
-.LocalClearance 0.07
+Po -3.05 0.25
 $EndPAD
 $PAD
-Sh "1" C 0.28 0.28 0 0 0
+Sh "7" O 1 0.28 0 0 0
 Dr 0 0 0
 At SMD N 00888000
+Ne 0 ""
+Po -3.05 0.75
+$EndPAD
+$PAD
+Sh "8" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.05 1.25
+$EndPAD
+$PAD
+Sh "9" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.05 1.75
+$EndPAD
+$PAD
+Sh "10" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.05 2.25
+$EndPAD
+$PAD
+Sh "11" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.25 3.05
+$EndPAD
+$PAD
+Sh "12" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.75 3.05
+$EndPAD
+$PAD
+Sh "13" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 3.05
+$EndPAD
+$PAD
+Sh "14" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.75 3.05
+$EndPAD
+$PAD
+Sh "15" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 3.05
+$EndPAD
+$PAD
+Sh "16" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.25 3.05
+$EndPAD
+$PAD
+Sh "17" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.75 3.05
+$EndPAD
+$PAD
+Sh "18" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.25 3.05
+$EndPAD
+$PAD
+Sh "19" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.75 3.05
+$EndPAD
+$PAD
+Sh "20" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.25 3.05
+$EndPAD
+$PAD
+Sh "21" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.05 2.25
+$EndPAD
+$PAD
+Sh "22" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.05 1.75
+$EndPAD
+$PAD
+Sh "23" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.05 1.25
+$EndPAD
+$PAD
+Sh "24" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.05 0.75
+$EndPAD
+$PAD
+Sh "25" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.05 0.25
+$EndPAD
+$PAD
+Sh "26" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.05 -0.25
+$EndPAD
+$PAD
+Sh "27" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.05 -0.75
+$EndPAD
+$PAD
+Sh "28" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.05 -1.25
+$EndPAD
+$PAD
+Sh "29" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.05 -1.75
+$EndPAD
+$PAD
+Sh "30" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.05 -2.25
+$EndPAD
+$PAD
+Sh "31" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.25 -3.05
+$EndPAD
+$PAD
+Sh "32" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.75 -3.05
+$EndPAD
+$PAD
+Sh "33" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.25 -3.05
+$EndPAD
+$PAD
+Sh "34" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.75 -3.05
+$EndPAD
+$PAD
+Sh "35" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.25 -3.05
+$EndPAD
+$PAD
+Sh "36" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 -3.05
+$EndPAD
+$PAD
+Sh "37" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.75 -3.05
+$EndPAD
+$PAD
+Sh "38" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 -3.05
+$EndPAD
+$PAD
+Sh "39" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.75 -3.05
+$EndPAD
+$PAD
+Sh "40" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.25 -3.05
+$EndPAD
+$PAD
+Sh "PAD" R 4.5 4.5 0 0 0
+Dr 0 0 0
+At SMD N 00808000
 Ne 0 ""
 Po 0 0
-.SolderMask 0.07
-.SolderPaste 0.07
-.LocalClearance 0.07
 $EndPAD
 $PAD
-Sh "1" R 0.28 0.71 0 0 0
+Sh "PAD" R 1.2 1.2 0 0 0
 Dr 0 0 0
-At SMD N 00888000
+At SMD N 00080000
 Ne 0 ""
-Po 0 0.355
-.SolderMask 0.07
-.SolderPaste 0.07
-.LocalClearance 0.07
+Po 0 0
+$EndPAD
+$PAD
+Sh "PAD" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00080000
+Ne 0 ""
+Po 1.5 0
+$EndPAD
+$PAD
+Sh "PAD" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00080000
+Ne 0 ""
+Po 1.5 -1.5
+$EndPAD
+$PAD
+Sh "PAD" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00080000
+Ne 0 ""
+Po 0 -1.5
+$EndPAD
+$PAD
+Sh "PAD" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00080000
+Ne 0 ""
+Po -1.5 -1.5
+$EndPAD
+$PAD
+Sh "PAD" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00080000
+Ne 0 ""
+Po -1.5 0
+$EndPAD
+$PAD
+Sh "PAD" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00080000
+Ne 0 ""
+Po -1.5 1.5
+$EndPAD
+$PAD
+Sh "PAD" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00080000
+Ne 0 ""
+Po 0 1.5
+$EndPAD
+$PAD
+Sh "PAD" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00080000
+Ne 0 ""
+Po 1.5 1.5
+$EndPAD
+$PAD
+Sh "PAD" C 0.5 0.5 0 0 0
+Dr 0.3 0 0
+At STD N 0060FFFF
+Ne 0 ""
+Po -0.5 -0.5
+$EndPAD
+$PAD
+Sh "PAD" C 0.5 0.5 0 0 0
+Dr 0.3 0 0
+At STD N 0060FFFF
+Ne 0 ""
+Po 0.5 -0.5
+$EndPAD
+$PAD
+Sh "PAD" C 0.5 0.5 0 0 0
+Dr 0.3 0 0
+At STD N 0060FFFF
+Ne 0 ""
+Po 0.5 0.5
+$EndPAD
+$PAD
+Sh "PAD" C 0.5 0.5 0 0 0
+Dr 0.3 0 0
+At STD N 0060FFFF
+Ne 0 ""
+Po -0.5 0.5
+$EndPAD
+$PAD
+Sh "PAD" C 0.5 0.5 0 0 0
+Dr 0.3 0 0
+At STD N 0060FFFF
+Ne 0 ""
+Po -1.5 0.5
+$EndPAD
+$PAD
+Sh "PAD" C 0.5 0.5 0 0 0
+Dr 0.3 0 0
+At STD N 0060FFFF
+Ne 0 ""
+Po -1.5 -0.5
+$EndPAD
+$PAD
+Sh "PAD" C 0.5 0.5 0 0 0
+Dr 0.3 0 0
+At STD N 0060FFFF
+Ne 0 ""
+Po -1.5 -1.5
+$EndPAD
+$PAD
+Sh "PAD" C 0.5 0.5 0 0 0
+Dr 0.3 0 0
+At STD N 0060FFFF
+Ne 0 ""
+Po -0.5 -1.5
+$EndPAD
+$PAD
+Sh "PAD" C 0.5 0.5 0 0 0
+Dr 0.3 0 0
+At STD N 0060FFFF
+Ne 0 ""
+Po 0.5 -1.5
+$EndPAD
+$PAD
+Sh "PAD" C 0.5 0.5 0 0 0
+Dr 0.3 0 0
+At STD N 0060FFFF
+Ne 0 ""
+Po 1.5 -1.5
+$EndPAD
+$PAD
+Sh "PAD" C 0.5 0.5 0 0 0
+Dr 0.3 0 0
+At STD N 0060FFFF
+Ne 0 ""
+Po 1.5 -0.5
+$EndPAD
+$PAD
+Sh "PAD" C 0.5 0.5 0 0 0
+Dr 0.3 0 0
+At STD N 0060FFFF
+Ne 0 ""
+Po 1.5 0.5
+$EndPAD
+$PAD
+Sh "PAD" C 0.5 0.5 0 0 0
+Dr 0.3 0 0
+At STD N 0060FFFF
+Ne 0 ""
+Po 1.5 1.5
+$EndPAD
+$PAD
+Sh "PAD" C 0.5 0.5 0 0 0
+Dr 0.3 0 0
+At STD N 0060FFFF
+Ne 0 ""
+Po 0.5 1.5
+$EndPAD
+$PAD
+Sh "PAD" C 0.5 0.5 0 0 0
+Dr 0.3 0 0
+At STD N 0060FFFF
+Ne 0 ""
+Po -0.5 1.5
+$EndPAD
+$PAD
+Sh "PAD" C 0.5 0.5 0 0 0
+Dr 0.3 0 0
+At STD N 0060FFFF
+Ne 0 ""
+Po -1.5 1.5
 $EndPAD
 $EndMODULE VQFN40
 $EndLIBRARY
