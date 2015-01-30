@@ -1,12 +1,155 @@
-PCBNEW-LibModule-V1  1/29/2015 8:35:37 PM
+PCBNEW-LibModule-V1  1/29/2015 11:07:01 PM
 # encoding utf-8
 Units mm
 $INDEX
+2-1825910-7
+47346-0001
 SIL-5x2
 SIL-8
+VQFN40
 $EndINDEX
+$MODULE 2-1825910-7
+Po 0 0 0 15 54CB26CD 00000000 ~~
+Li 2-1825910-7
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -4.5 1 1 0 0.15 N V 21 N "2-1825910-7"
+T1 0 4.3 1 1 0 0.15 N V 21 N "VAL**"
+DC 0 0 1.7 0 0.1 21
+DS -3 3 3 3 0.1 21
+DS 3 3 3 -3 0.1 21
+DS 3 -3 -3 -3 0.1 21
+DS -3 -3 -3 3 0.1 21
+$PAD
+Sh "4" C 1.6 1.6 0 0 0
+Dr 0.99 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.25 -2.25
+$EndPAD
+$PAD
+Sh "2" C 1.6 1.6 0 0 0
+Dr 0.99 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.25 2.25
+$EndPAD
+$PAD
+Sh "1" C 1.6 1.6 0 0 0
+Dr 0.99 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.25 2.25
+$EndPAD
+$PAD
+Sh "3" C 1.6 1.6 0 0 0
+Dr 0.99 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.25 -2.25
+$EndPAD
+$EndMODULE 2-1825910-7
+$MODULE 47346-0001
+Po 0 0 0 15 54CB2330 00000000 ~~
+Li 47346-0001
+Sc 0
+AR 
+Op 0 0 0
+T0 1.1 6 1 1 0 0.15 N V 21 N "47346-0001"
+T1 -1.5 -5.5 1 1 0 0.15 N V 21 N "VAL**"
+DS -4.11 -5.1 -4.11 5.5 0.01 24
+$PAD
+Sh "" R 1.9 1.175 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.66 0.8375
+.LocalClearance 0.05
+$EndPAD
+$PAD
+Sh "" R 1.9 2.375 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.66 2.9125
+.LocalClearance 0.05
+$EndPAD
+$PAD
+Sh "" R 2.1 1.475 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.36 2.4625
+.LocalClearance 0.05
+$EndPAD
+$PAD
+Sh "5" R 1.38 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 1.3
+.LocalClearance 0.05
+$EndPAD
+$PAD
+Sh "4" R 1.38 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0.65
+.LocalClearance 0.05
+$EndPAD
+$PAD
+Sh "1" R 1.38 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -1.3
+.LocalClearance 0.05
+$EndPAD
+$PAD
+Sh "2" R 1.38 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -0.65
+.LocalClearance 0.05
+$EndPAD
+$PAD
+Sh "3" R 1.38 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+.LocalClearance 0.05
+$EndPAD
+$PAD
+Sh "" R 2.1 1.475 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.36 -2.4625
+.LocalClearance 0.05
+$EndPAD
+$PAD
+Sh "" R 1.9 2.375 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.66 -2.9125
+.LocalClearance 0.05
+$EndPAD
+$PAD
+Sh "" R 1.9 1.175 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.66 -0.8375
+.LocalClearance 0.05
+$EndPAD
+$EndMODULE 47346-0001
 $MODULE SIL-5x2
-Po 0 0 0 15 54CB0A0F 00000000 ~~
+Po 0 0 0 15 54CB244C 00000000 ~~
 Li SIL-5x2
 Cd Connecteur 5 pins
 Kw CONN DEV
@@ -35,7 +178,7 @@ Sh "7" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 0 1.27
+Po 2.54 1.27
 $EndPAD
 $PAD
 Sh "6" C 1.397 1.397 0 0 0
@@ -49,7 +192,7 @@ Sh "2" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po -8.89 1.27
+Po -5.08 -1.27
 $EndPAD
 $PAD
 Sh "1" R 1.397 1.397 0 0 0
@@ -63,7 +206,7 @@ Sh "4" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po -5.08 -1.27
+Po -2.54 -1.27
 $EndPAD
 $PAD
 Sh "3" C 1.397 1.397 0 0 0
@@ -77,7 +220,7 @@ Sh "8" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 0 -3.81
+Po 2.54 -1.27
 $EndPAD
 $PAD
 Sh "10" C 1.397 1.397 0 0 0
@@ -166,4 +309,96 @@ Ne 0 ""
 Po 8.89 0
 $EndPAD
 $EndMODULE SIL-8
+$MODULE VQFN40
+Po 0 0 0 15 54CB29D5 00000000 ~~
+Li VQFN40
+Sc 0
+AR 
+Op 0 0 0
+.SolderMask 0.07
+.SolderPaste 0.07
+.LocalClearance 0.07
+T0 8.7 -5.1 1 1 0 0.15 N V 21 N "VQFN40"
+T1 3.5 -5.3 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" R 0.28 0.71 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1 0.355
+.SolderMask 0.07
+.SolderPaste 0.07
+.LocalClearance 0.07
+$EndPAD
+$PAD
+Sh "1" C 0.28 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1 0
+.SolderMask 0.07
+.SolderPaste 0.07
+.LocalClearance 0.07
+$EndPAD
+$PAD
+Sh "2" C 0.28 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.5 0
+.SolderMask 0.07
+.SolderPaste 0.07
+.LocalClearance 0.07
+$EndPAD
+$PAD
+Sh "2" R 0.28 0.71 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.5 -0.135
+.SolderMask 0.07
+.SolderPaste 0.07
+.LocalClearance 0.07
+$EndPAD
+$PAD
+Sh "2" R 0.28 0.71 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1 0.11
+.SolderMask 0.07
+.SolderPaste 0.07
+.LocalClearance 0.07
+$EndPAD
+$PAD
+Sh "2" C 0.28 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.5 0
+.SolderMask 0.07
+.SolderPaste 0.07
+.LocalClearance 0.07
+$EndPAD
+$PAD
+Sh "1" C 0.28 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+.SolderMask 0.07
+.SolderPaste 0.07
+.LocalClearance 0.07
+$EndPAD
+$PAD
+Sh "1" R 0.28 0.71 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0.355
+.SolderMask 0.07
+.SolderPaste 0.07
+.LocalClearance 0.07
+$EndPAD
+$EndMODULE VQFN40
 $EndLIBRARY
