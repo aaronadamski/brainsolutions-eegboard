@@ -1,9 +1,14 @@
-PCBNEW-LibModule-V1  1/30/2015 2:50:45 PM
+PCBNEW-LibModule-V1  Sat 31 Jan 2015 01:59:41 PM PST
 # encoding utf-8
 Units mm
 $INDEX
 2-1825910-7
+2450BM15A0002
 47346-0001
+DBV(R-PDSO-G5)
+DBV(R-PDSO-G6)
+DCK(R-PDSO-G5)
+DDC(R-PDSO-G5)
 FA-128_EPSON
 FC-135R_EPSON
 SIL-5x2
@@ -53,8 +58,71 @@ Ne 0 ""
 Po 3.25 -2.25
 $EndPAD
 $EndMODULE 2-1825910-7
+$MODULE 2450BM15A0002
+Po 0 0 0 15 54CD3F5B 00000000 ~~
+Li 2450BM15A0002
+Sc 0
+AR 
+Op 0 0 0
+T0 0 2.4 1 1 0 0.15 N V 21 N "2450BM15A0002"
+T1 0 -2.55 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" R 0.35 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.65 -0.9
+.SolderMask 0.07
+.LocalClearance 0.07
+$EndPAD
+$PAD
+Sh "2" R 0.35 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -0.9
+.SolderMask 0.07
+.LocalClearance 0.07
+$EndPAD
+$PAD
+Sh "3" R 0.35 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.65 -0.9
+.SolderMask 0.07
+.LocalClearance 0.07
+$EndPAD
+$PAD
+Sh "4" R 0.35 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.65 0.9
+.SolderMask 0.07
+.LocalClearance 0.07
+$EndPAD
+$PAD
+Sh "5" R 0.35 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0.9
+.SolderMask 0.07
+.LocalClearance 0.07
+$EndPAD
+$PAD
+Sh "6" R 0.35 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.65 0.9
+.SolderMask 0.07
+.LocalClearance 0.07
+$EndPAD
+$EndMODULE 2450BM15A0002
 $MODULE 47346-0001
-Po 0 0 0 15 54CB2330 00000000 ~~
+Po 0 0 0 15 54CD41D2 00000000 ~~
 Li 47346-0001
 Sc 0
 AR 
@@ -63,7 +131,7 @@ T0 1.1 6 1 1 0 0.15 N V 21 N "47346-0001"
 T1 -1.5 -5.5 1 1 0 0.15 N V 21 N "VAL**"
 DS -4.11 -5.1 -4.11 5.5 0.01 24
 $PAD
-Sh "" R 1.9 1.175 0 0 0
+Sh "8" R 1.9 1.175 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -71,7 +139,7 @@ Po -2.66 0.8375
 .LocalClearance 0.05
 $EndPAD
 $PAD
-Sh "" R 1.9 2.375 0 0 0
+Sh "9" R 1.9 2.375 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -135,7 +203,7 @@ Po -0.36 -2.4625
 .LocalClearance 0.05
 $EndPAD
 $PAD
-Sh "" R 1.9 2.375 0 0 0
+Sh "6" R 1.9 2.375 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -143,7 +211,7 @@ Po -2.66 -2.9125
 .LocalClearance 0.05
 $EndPAD
 $PAD
-Sh "" R 1.9 1.175 0 0 0
+Sh "7" R 1.9 1.175 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -151,6 +219,203 @@ Po -2.66 -0.8375
 .LocalClearance 0.05
 $EndPAD
 $EndMODULE 47346-0001
+$MODULE DBV(R-PDSO-G5)
+Po 0 0 0 15 54CD5046 00000000 ~~
+Li DBV(R-PDSO-G5)
+Sc 0
+AR 
+Op 0 0 0
+.SolderMask 0.07
+.SolderPaste -0.05
+.LocalClearance 0.07
+T0 2.25 0 1 1 900 0.15 N V 21 N "DDC(R-PDSO-G5)"
+T1 0 0 0.5 0.5 0 0.125 N V 21 N "VAL**"
+DC -1.7 2.2 -1.5 2.3 0.15 21
+$PAD
+Sh "4" R 0.6 1.05 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.95 -1.35
+$EndPAD
+$PAD
+Sh "5" R 0.6 1.05 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.95 -1.35
+$EndPAD
+$PAD
+Sh "1" R 0.6 1.05 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.95 1.35
+$EndPAD
+$PAD
+Sh "2" R 0.6 1.05 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 1.35
+$EndPAD
+$PAD
+Sh "3" R 0.6 1.05 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.95 1.35
+$EndPAD
+$EndMODULE DBV(R-PDSO-G5)
+$MODULE DBV(R-PDSO-G6)
+Po 0 0 0 15 54CD4A9E 00000000 ~~
+Li DBV(R-PDSO-G6)
+Sc 0
+AR 
+Op 0 0 0
+.SolderMask 0.07
+.SolderPaste -0.05
+.LocalClearance 0.07
+T0 2.15 0 1 1 900 0.15 N V 21 N "DBV(R-PDSO-G6)"
+T1 0 -3.15 1 1 0 0.15 N V 21 N "VAL**"
+DC -1.8 2.05 -1.6 2.1 0.15 21
+$PAD
+Sh "4" R 0.6 1.05 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.95 -1.35
+$EndPAD
+$PAD
+Sh "5" R 0.6 1.05 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -1.35
+$EndPAD
+$PAD
+Sh "6" R 0.6 1.05 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.95 -1.35
+$EndPAD
+$PAD
+Sh "1" R 0.6 1.05 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.95 1.35
+$EndPAD
+$PAD
+Sh "2" R 0.6 1.05 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 1.35
+$EndPAD
+$PAD
+Sh "3" R 0.6 1.05 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.95 1.35
+$EndPAD
+$EndMODULE DBV(R-PDSO-G6)
+$MODULE DCK(R-PDSO-G5)
+Po 0 0 0 15 54CD4CA3 00000000 ~~
+Li DCK(R-PDSO-G5)
+Sc 0
+AR 
+Op 0 0 0
+.SolderMask 0.05
+.SolderPaste -0.05
+.LocalClearance 0.07
+T0 0 2.5 1 1 0 0.15 N V 21 N "DCK(R-PDSO-G5)"
+T1 0 -2.45 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" R 0.4 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.65 1.1
+$EndPAD
+$PAD
+Sh "2" R 0.4 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 1.1
+$EndPAD
+$PAD
+Sh "3" R 0.4 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.65 1.1
+$EndPAD
+$PAD
+Sh "4" R 0.4 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.65 -1.1
+$EndPAD
+$PAD
+Sh "5" R 0.4 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.65 -1.1
+$EndPAD
+$EndMODULE DCK(R-PDSO-G5)
+$MODULE DDC(R-PDSO-G5)
+Po 0 0 0 15 54CD4EE9 00000000 ~~
+Li DDC(R-PDSO-G5)
+Sc 0
+AR 
+Op 0 0 0
+.SolderMask 0.07
+.LocalClearance 0.07
+T0 2.25 0 1 1 900 0.15 N V 21 N "DDC(R-PDSO-G5)"
+T1 0 0 1 1 0 0.15 N V 21 N "VAL**"
+DC -1.7 2.2 -1.5 2.3 0.15 21
+$PAD
+Sh "4" R 0.6 1.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.95 -1.35
+$EndPAD
+$PAD
+Sh "5" R 0.6 1.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.95 -1.35
+$EndPAD
+$PAD
+Sh "1" R 0.6 1.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.95 1.35
+$EndPAD
+$PAD
+Sh "2" R 0.6 1.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 1.35
+$EndPAD
+$PAD
+Sh "3" R 0.6 1.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.95 1.35
+$EndPAD
+$EndMODULE DDC(R-PDSO-G5)
 $MODULE FA-128_EPSON
 Po 0 0 0 15 54CC0A47 00000000 ~~
 Li FA-128_EPSON
@@ -428,7 +693,7 @@ Po 2.25 -2.25
 $EndPAD
 $EndMODULE SSSS810701
 $MODULE VQFN40
-Po 0 0 0 15 54CBC22E 00000000 ~~
+Po 0 0 0 15 54CD4057 00000000 ~~
 Li VQFN40
 Sc 0
 AR 
@@ -438,6 +703,7 @@ Op 0 0 0
 .LocalClearance 0.07
 T0 8.7 -5.1 1 1 0 0.15 N V 21 N "VQFN40"
 T1 3.5 -5.3 1 1 0 0.15 N V 21 N "VAL**"
+DC -3.85 -2.95 -3.65 -2.9 0.15 21
 $PAD
 Sh "1" O 1 0.28 0 0 0
 Dr 0 0 0

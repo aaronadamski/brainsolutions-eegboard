@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 1/30/2015 2:51:43 PM
+Cmp-Mod V01 Created by PcbNew date = Sat 31 Jan 2015 01:58:21 PM PST
 
 BeginCmp
 TimeStamp = /54B45B18/54C7F82B;
@@ -739,28 +739,28 @@ BeginCmp
 TimeStamp = /54B47D54/54B47F42;
 Reference = U2;
 ValeurCmp = TLV70033;
-IdModule  = SOT23-5;
+IdModule  = DDC(R-PDSO-G5);
 EndCmp
 
 BeginCmp
 TimeStamp = /54B47D54/54B47F3C;
 Reference = U3;
 ValeurCmp = TLV70025;
-IdModule  = SOT23-5;
+IdModule  = DDC(R-PDSO-G5);
 EndCmp
 
 BeginCmp
 TimeStamp = /54B47D54/54B47F36;
 Reference = U4;
 ValeurCmp = LM2664;
-IdModule  = SOT23_6;
+IdModule  = DBV(R-PDSO-G6);
 EndCmp
 
 BeginCmp
 TimeStamp = /54B47D54/54B47F48;
 Reference = U5;
 ValeurCmp = TPS72325;
-IdModule  = SOT23-5;
+IdModule  = DBV(R-PDSO-G5);
 EndCmp
 
 BeginCmp
@@ -774,13 +774,13 @@ BeginCmp
 TimeStamp = /54B458F2/54B71B33;
 Reference = U7;
 ValeurCmp = 2450BM15A0002E;
-IdModule  = 2450BM15A0002E;
+IdModule  = 2450BM15A0002;
 EndCmp
 
 BeginCmp
-TimeStamp = /54B458F2/54B4E2E4;
+TimeStamp = /54B458F2/54CD5E89;
 Reference = X1;
-ValeurCmp = 32-KHz;
+ValeurCmp = QUARTZCMS4_32K;
 IdModule  = FC-135R_EPSON;
 EndCmp
 

@@ -38,7 +38,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 4 4
 Title "Project Synapse Prototype Board"
-Date "29 jan 2015"
+Date "31 jan 2015"
 Rev "A.b"
 Comp "Senior Design 14-15"
 Comment1 ""
@@ -166,17 +166,6 @@ F 2 "~" H 6350 6600 60  0000 C CNN
 F 3 "~" H 6350 6600 60  0000 C CNN
 	1    6350 6600
 	1    0    0    -1  
-$EndComp
-$Comp
-L QUARTZCMS4 X1
-U 1 1 54B4E2E4
-P 4650 3000
-F 0 "X1" H 4650 3150 60  0000 C CNN
-F 1 "32-KHz" H 4650 2850 60  0000 C CNN
-F 2 "~" H 4650 3000 60  0000 C CNN
-F 3 "~" H 4650 3000 60  0000 C CNN
-	1    4650 3000
-	-1   0    0    1   
 $EndComp
 $Comp
 L C C52
@@ -988,6 +977,17 @@ F 1 "1u" H 7506 1665 40  0000 L CNN
 F 2 "0402_X5R_K_6P3" H 7538 1600 30  0000 C CNN
 F 3 "~" H 7500 1750 60  0000 C CNN
 	1    7500 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L QUARTZCMS4_32K X1
+U 1 1 54CD5E89
+P 4650 3000
+F 0 "X1" H 4650 3150 60  0000 C CNN
+F 1 "QUARTZCMS4_32K" H 4650 2850 60  0000 C CNN
+F 2 "~" H 4650 3000 60  0000 C CNN
+F 3 "~" H 4650 3000 60  0000 C CNN
+	1    4650 3000
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
