@@ -1319,4 +1319,18 @@ F 3 "" H 6850 2200 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	6850 2200 7000 2200
+Text Label 2900 4650 0    60   ~ 0
+VREFP
+Text Label 2850 4550 0    60   ~ 0
+VCAP4
+Text Label 2850 4450 0    60   ~ 0
+VCAP3
+Text Label 2850 4350 0    60   ~ 0
+VCAP2
+Text Label 2850 4250 0    60   ~ 0
+VCAP1
+Text Label 2800 3650 0    60   ~ 0
+BIASINV
+Text Label 2800 3750 0    60   ~ 0
+BIASOUT_IN
 $EndSCHEMATC
