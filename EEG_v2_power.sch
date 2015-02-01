@@ -433,4 +433,6 @@ Wire Wire Line
 Wire Wire Line
 	4550 3250 4550 3050
 Connection ~ 4550 3050
+Text Label 6850 4450 0    60   ~ 0
+N3.3V
 $EndSCHEMATC

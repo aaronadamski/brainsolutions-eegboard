@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Sat 31 Jan 2015 01:58:21 PM PST
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Sat 31 Jan 2015 02:46:47 PM PST
 
 BeginCmp
 TimeStamp = /54B45B18/54C7F82B;
@@ -25,21 +25,21 @@ BeginCmp
 TimeStamp = /54B45B18/54C7F831;
 Reference = C4;
 ValeurCmp = 4.7nF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54C7FC34;
 Reference = C5;
 ValeurCmp = 4.7nF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54C7FC3A;
 Reference = C6;
 ValeurCmp = 4.7nF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
@@ -60,14 +60,14 @@ BeginCmp
 TimeStamp = /54B45B18/54C7FC5B;
 Reference = C9;
 ValeurCmp = 4.7nF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54C7FC61;
 Reference = C10;
 ValeurCmp = 4.7nF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
@@ -95,14 +95,14 @@ BeginCmp
 TimeStamp = /54B45B18/54C7FC82;
 Reference = C14;
 ValeurCmp = 4.7nF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54C7FC88;
 Reference = C15;
 ValeurCmp = 4.7nF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
@@ -158,14 +158,14 @@ BeginCmp
 TimeStamp = /54B45B18/54C7FCA9;
 Reference = C23;
 ValeurCmp = 4.7nF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54C7FCAF;
 Reference = C24;
 ValeurCmp = 4.7nF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
@@ -186,49 +186,49 @@ BeginCmp
 TimeStamp = /54B45B18/54C7FCD0;
 Reference = C27;
 ValeurCmp = 4.7nF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54C7FCD6;
 Reference = C28;
 ValeurCmp = 4.7nF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54C81E5C;
 Reference = C29;
 ValeurCmp = 4.7nF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54C7FCF7;
 Reference = C30;
 ValeurCmp = 4.7nF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54C7FCFD;
 Reference = C31;
 ValeurCmp = 4.7nF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54C7FD1E;
 Reference = C32;
 ValeurCmp = 4.7nF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54C7FD24;
 Reference = C33;
 ValeurCmp = 4.7nF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
@@ -494,49 +494,49 @@ BeginCmp
 TimeStamp = /54B45B18/54C7F83E;
 Reference = R2;
 ValeurCmp = 4.99K;
-IdModule  = SM0603_Resistor;
+IdModule  = Vishay_CRCW_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54C7F844;
 Reference = R3;
 ValeurCmp = 4.99K;
-IdModule  = SM0603_Resistor;
+IdModule  = Vishay_CRCW_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54C7FC47;
 Reference = R4;
 ValeurCmp = 4.99K;
-IdModule  = SM0603_Resistor;
+IdModule  = Vishay_CRCW_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54C7FC4D;
 Reference = R5;
 ValeurCmp = 4.99K;
-IdModule  = SM0603_Resistor;
+IdModule  = Vishay_CRCW_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54C7FC6E;
 Reference = R6;
 ValeurCmp = 4.99K;
-IdModule  = SM0603_Resistor;
+IdModule  = Vishay_CRCW_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54C7FC74;
 Reference = R7;
 ValeurCmp = 4.99K;
-IdModule  = SM0603_Resistor;
+IdModule  = Vishay_CRCW_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54C7FC95;
 Reference = R8;
 ValeurCmp = 4.99K;
-IdModule  = SM0603_Resistor;
+IdModule  = Vishay_CRCW_0603;
 EndCmp
 
 BeginCmp
@@ -550,77 +550,77 @@ BeginCmp
 TimeStamp = /54B45B18/54C81B51;
 Reference = R10;
 ValeurCmp = 4.99K;
-IdModule  = SM0603_Resistor;
+IdModule  = Vishay_CRCW_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54C7FC9B;
 Reference = R11;
 ValeurCmp = 4.99K;
-IdModule  = SM0603_Resistor;
+IdModule  = Vishay_CRCW_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54C7FCBC;
 Reference = R12;
 ValeurCmp = 4.99K;
-IdModule  = SM0603_Resistor;
+IdModule  = Vishay_CRCW_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54C7FCC2;
 Reference = R13;
 ValeurCmp = 4.99K;
-IdModule  = SM0603_Resistor;
+IdModule  = Vishay_CRCW_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54C7FCE3;
 Reference = R14;
 ValeurCmp = 4.99K;
-IdModule  = SM0603_Resistor;
+IdModule  = Vishay_CRCW_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54C81E67;
 Reference = R15;
 ValeurCmp = 4.99K;
-IdModule  = SM0603_Resistor;
+IdModule  = Vishay_CRCW_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54C7FCE9;
 Reference = R16;
 ValeurCmp = 4.99K;
-IdModule  = SM0603_Resistor;
+IdModule  = Vishay_CRCW_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54C7FD0A;
 Reference = R17;
 ValeurCmp = 4.99K;
-IdModule  = SM0603_Resistor;
+IdModule  = Vishay_CRCW_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54C7FD10;
 Reference = R18;
 ValeurCmp = 4.99K;
-IdModule  = SM0603_Resistor;
+IdModule  = Vishay_CRCW_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54C7FD31;
 Reference = R19;
 ValeurCmp = 4.99K;
-IdModule  = SM0603_Resistor;
+IdModule  = Vishay_CRCW_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54C7FD37;
 Reference = R20;
 ValeurCmp = 4.99K;
-IdModule  = SM0603_Resistor;
+IdModule  = Vishay_CRCW_0603;
 EndCmp
 
 BeginCmp
