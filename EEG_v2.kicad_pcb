@@ -1416,7 +1416,7 @@
   )
 
   (module SIL-2 (layer F.Cu) (tedit 200000) (tstamp 54CD44C4)
-    (at 287.782 151.638 270)
+    (at 287.782 151.003 270)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
     (path /54CAAA23)
@@ -3254,7 +3254,7 @@
   )
 
   (module Vishay_CRCW_0603 (layer F.Cu) (tedit 54CD5711) (tstamp 54CD438C)
-    (at 316.4205 143.0655 270)
+    (at 320.675 143.383 270)
     (path /54B45B18/54C81E67)
     (clearance 0.1)
     (fp_text reference R15 (at -1.5 0 360) (layer F.SilkS)
@@ -3728,7 +3728,7 @@
   )
 
   (module Murata_GRM_0603 (layer F.Cu) (tedit 54CD5B05) (tstamp 54CD46D2)
-    (at 317.5635 143.1925 90)
+    (at 321.691 143.383 90)
     (path /54B45B18/54C81E5C)
     (solder_mask_margin 0.07)
     (clearance 0.1)
@@ -3830,7 +3830,7 @@
   )
 
   (module SIL-2 (layer F.Cu) (tedit 200000) (tstamp 54CD44B0)
-    (at 315.1505 139.5095 180)
+    (at 319.786 139.7 180)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
     (path /54CE5097)
