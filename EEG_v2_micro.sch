@@ -1010,4 +1010,30 @@ Wire Wire Line
 Wire Wire Line
 	2700 5450 2700 5500
 Connection ~ 2600 5450
+Text Label 6100 4800 0    60   ~ 0
+RF_N
+Text Label 6100 4900 0    60   ~ 0
+RF_P
+Text Label 3350 6200 0    60   ~ 0
+LED2
+Text Label 2900 6000 0    60   ~ 0
+LED1
+Text Label 2550 5000 0    60   ~ 0
+SW3
+Text Label 2700 5100 0    60   ~ 0
+SW4
+Text Label 2300 4500 0    60   ~ 0
+USB_P_Intr
+Text Label 2300 4600 0    60   ~ 0
+USB_N_Intr
+Text Label 4450 3550 1    60   ~ 0
+X1_1
+Text Label 4550 3550 1    60   ~ 0
+X1_2
+Text Label 5600 5100 0    60   ~ 0
+X2_3
+Text Label 5500 5200 0    60   ~ 0
+X2_1
+Text Label 4600 6600 3    60   ~ 0
+RESET_INTR
 $EndSCHEMATC

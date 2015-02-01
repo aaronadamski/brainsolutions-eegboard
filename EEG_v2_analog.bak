@@ -1329,4 +1329,8 @@ Text Label 2850 4350 0    60   ~ 0
 VCAP2
 Text Label 2850 4250 0    60   ~ 0
 VCAP1
+Text Label 2800 3650 0    60   ~ 0
+BIASINV
+Text Label 2800 3750 0    60   ~ 0
+BIASOUT_IN
 $EndSCHEMATC
