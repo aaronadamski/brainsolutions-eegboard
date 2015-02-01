@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Sat 31 Jan 2015 02:46:47 PM PST
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Sat 31 Jan 2015 10:31:17 PM PST
 
 BeginCmp
 TimeStamp = /54B45B18/54C7F82B;
 Reference = C1;
 ValeurCmp = 4.7nF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
@@ -456,10 +456,10 @@ IdModule  = SIL-8;
 EndCmp
 
 BeginCmp
-TimeStamp = /54CE6A84;
+TimeStamp = /54CDE318;
 Reference = P3;
-ValeurCmp = USB-MINI-B;
-IdModule  = 47346-0001;
+ValeurCmp = USB_A;
+IdModule  = 61729-0010BLF;
 EndCmp
 
 BeginCmp
@@ -477,10 +477,17 @@ IdModule  = SIL-5x2;
 EndCmp
 
 BeginCmp
-TimeStamp = /54C84FBA;
+TimeStamp = /54CE5097;
 Reference = P6;
-ValeurCmp = CONN_3;
-IdModule  = SIL-3;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CE56CB;
+Reference = P7;
+ValeurCmp = CONN_1;
+IdModule  = SIL-1;
 EndCmp
 
 BeginCmp
@@ -680,23 +687,23 @@ IdModule  = SSSS810701;
 EndCmp
 
 BeginCmp
-TimeStamp = /54CABD6B;
+TimeStamp = /54CE83B3;
 Reference = SW2;
 ValeurCmp = RESET;
 IdModule  = 2-1825910-7;
 EndCmp
 
 BeginCmp
-TimeStamp = /54B458F2/54CBF5D1;
+TimeStamp = /54B458F2/54CE949D;
 Reference = SW3;
-ValeurCmp = SW_PUSH;
+ValeurCmp = SW_PUSH_4PIN;
 IdModule  = 2-1825910-7;
 EndCmp
 
 BeginCmp
-TimeStamp = /54B458F2/54CBFC84;
+TimeStamp = /54B458F2/54CE948E;
 Reference = SW4;
-ValeurCmp = SW_PUSH;
+ValeurCmp = SW_PUSH_4PIN;
 IdModule  = 2-1825910-7;
 EndCmp
 
@@ -704,28 +711,28 @@ BeginCmp
 TimeStamp = /54B47D54/54C4B7B8;
 Reference = TP1;
 ValeurCmp = 3.3V;
-IdModule  = Measurement_Point_Round-SMD-Pad_Big;
+IdModule  = Measurement_Point_Round-SMD-Pad_Small;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B47D54/54C4B7DE;
 Reference = TP2;
 ValeurCmp = 2.5V;
-IdModule  = Measurement_Point_Round-SMD-Pad_Big;
+IdModule  = Measurement_Point_Round-SMD-Pad_Small;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B47D54/54C4B7E9;
 Reference = TP3;
 ValeurCmp = -3.3V;
-IdModule  = Measurement_Point_Round-SMD-Pad_Big;
+IdModule  = Measurement_Point_Round-SMD-Pad_Small;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B47D54/54C4B7F4;
 Reference = TP4;
 ValeurCmp = -2.5V;
-IdModule  = Measurement_Point_Round-SMD-Pad_Big;
+IdModule  = Measurement_Point_Round-SMD-Pad_Small;
 EndCmp
 
 BeginCmp
