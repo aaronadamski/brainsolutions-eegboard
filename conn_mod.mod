@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Sat 31 Jan 2015 09:53:15 PM PST
+PCBNEW-LibModule-V1  2/2/2015 11:19:22 AM
 # encoding utf-8
 Units mm
 $INDEX
@@ -223,14 +223,17 @@ Po -2.66 -0.8375
 $EndPAD
 $EndMODULE 47346-0001
 $MODULE 61729-0010BLF
-Po 0 0 0 15 54CDBF44 00000000 ~~
+Po 0 0 0 15 54CFCDB6 00000000 ~~
 Li 61729-0010BLF
 Sc 0
-AR 
+AR /54CDE318
 Op 0 0 0
 .LocalClearance 0.1
-T0 0 -6.1 1 1 0 0.15 N V 21 N "61729-0010BLF"
-T1 0 2.45 1 1 0 0.15 N V 21 N "VAL**"
+T0 0 -6.1 1 1 0 0.15 N V 21 N "P3"
+T1 0 2.45 1 1 0 0.15 N V 21 N "USB_A"
+DS -6 0 -6 -5.8 0.15 21
+DS -6 -5.8 6 -5.8 0.15 21
+DS 6 -5.8 6 0 0.15 21
 DS 6 0 5.95 10.25 0.15 21
 DS 5.95 10.25 -6 10.25 0.15 21
 DS -6 10.25 -6 0 0.15 21
@@ -238,42 +241,42 @@ $PAD
 Sh "1" C 1.5 1.5 0 0 0
 Dr 0.92 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 3 "/VBUS"
 Po 1.25 -4.71
 $EndPAD
 $PAD
 Sh "2" C 1.5 1.5 0 0 0
 Dr 0.92 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 1 "/Microcontroller/USB_N"
 Po -1.25 -4.71
 $EndPAD
 $PAD
 Sh "3" C 1.5 1.5 0 0 0
 Dr 0.92 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 2 "/Microcontroller/USB_P"
 Po -1.25 -2.71
 $EndPAD
 $PAD
 Sh "4" C 1.5 1.5 0 0 0
 Dr 0.92 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 4 "AGND"
 Po 1.25 -2.71
 $EndPAD
 $PAD
 Sh "5" C 2.8 2.8 0 0 0
 Dr 2.3 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 4 "AGND"
 Po -6.02 0
 $EndPAD
 $PAD
 Sh "6" C 2.8 2.8 0 0 0
 Dr 2.3 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 4 "AGND"
 Po 6.02 0
 $EndPAD
 $EndMODULE 61729-0010BLF

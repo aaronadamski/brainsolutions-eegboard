@@ -38,7 +38,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 4 4
 Title "Project Synapse Prototype Board"
-Date "1 feb 2015"
+Date "2 feb 2015"
 Rev "A.b"
 Comp "Senior Design 14-15"
 Comment1 ""
@@ -991,11 +991,6 @@ F 3 "~" H 2200 5800 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2200 5500 2200 5450
-Wire Wire Line
-	2200 5450 2300 5450
-Connection ~ 2300 5450
-Wire Wire Line
 	2200 6100 2200 6150
 Wire Wire Line
 	2200 6150 2300 6150
@@ -1005,11 +1000,6 @@ Wire Wire Line
 Wire Wire Line
 	2700 6150 2700 6100
 Connection ~ 2600 6150
-Wire Wire Line
-	2600 5450 2700 5450
-Wire Wire Line
-	2700 5450 2700 5500
-Connection ~ 2600 5450
 Text Label 6100 4800 0    60   ~ 0
 RF_N
 Text Label 6100 4900 0    60   ~ 0
@@ -1036,4 +1026,6 @@ Text Label 5500 5200 0    60   ~ 0
 X2_1
 Text Label 4600 6600 3    60   ~ 0
 RESET_INTR
+NoConn ~ 2700 5500
+NoConn ~ 2200 5500
 $EndSCHEMATC
