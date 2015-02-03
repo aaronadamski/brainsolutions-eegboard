@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  2/2/2015 11:19:22 AM
+PCBNEW-LibModule-V1  2/2/2015 6:21:04 PM
 # encoding utf-8
 Units mm
 $INDEX
@@ -6,6 +6,7 @@ $INDEX
 2450BM15A0002
 47346-0001
 61729-0010BLF
+AN043
 DBV(R-PDSO-G5)
 DBV(R-PDSO-G6)
 DCK(R-PDSO-G5)
@@ -280,6 +281,120 @@ Ne 4 "AGND"
 Po 6.02 0
 $EndPAD
 $EndMODULE 61729-0010BLF
+$MODULE AN043
+Po 0 0 0 15 54D0308E 00000000 ~~
+Li AN043
+Sc 0
+AR 
+Op 0 0 0
+.LocalClearance -0.001
+T0 9.65 -6.45 1 1 0 0.15 N V 21 N "AN043"
+T1 -1.1 -6.2 1 1 0 0.15 N V 21 N "VAL**"
+DS 12.15 -0.25 12.15 -5.45 0.001 24
+DS -3.05 -5.45 -3.05 -0.25 0.001 24
+DS -3.05 -0.25 12.15 -0.25 0.001 24
+DS -2.55 -5.45 -3.05 -5.45 0.001 24
+DS 11.55 -5.45 12.15 -5.45 0.001 24
+DS -2.55 -5.45 11.55 -5.45 0.001 24
+$PAD
+Sh "1" R 0.5 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "" R 0.5 4.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -2.45
+$EndPAD
+$PAD
+Sh "2" R 0.9 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.1 0
+$EndPAD
+$PAD
+Sh "" R 0.9 4.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.1 -2.45
+$EndPAD
+$PAD
+Sh "" R 5 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.05 -4.9
+$EndPAD
+$PAD
+Sh "" R 0.5 2.64 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.2 -3.33
+$EndPAD
+$PAD
+Sh "" R 2 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.45 -2.26
+$EndPAD
+$PAD
+Sh "" R 0.5 2.64 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.7 -3.33
+$EndPAD
+$PAD
+Sh "" R 0.5 2.64 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6.9 -3.33
+$EndPAD
+$PAD
+Sh "" R 0.5 2.64 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 9.4 -3.33
+$EndPAD
+$PAD
+Sh "" R 2.7 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.8 -4.9
+$EndPAD
+$PAD
+Sh "" R 2.7 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 10.5 -4.9
+$EndPAD
+$PAD
+Sh "" R 2 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 8.15 -2.26
+$EndPAD
+$PAD
+Sh "" R 0.5 3.94 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 11.6 -2.68
+$EndPAD
+$EndMODULE AN043
 $MODULE DBV(R-PDSO-G5)
 Po 0 0 0 15 54CD5046 00000000 ~~
 Li DBV(R-PDSO-G5)
