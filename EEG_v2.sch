@@ -337,7 +337,7 @@ Connection ~ 1300 5250
 Wire Wire Line
 	4300 2700 4300 2900
 Wire Wire Line
-	2750 3000 2750 4650
+	2750 3000 2750 4450
 Wire Wire Line
 	4600 5250 4600 5850
 Connection ~ 4600 5700
@@ -366,8 +366,6 @@ F 3 "~" H 1100 2900 60  0000 C CNN
 	1    1100 2900
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2750 4650 2550 4450
 Text Label 2750 3600 1    60   ~ 0
 VBUS
 $Comp
@@ -438,4 +436,6 @@ Wire Wire Line
 	4700 6500 4600 6500
 Connection ~ 4600 6500
 NoConn ~ 4700 5850
+Wire Wire Line
+	2750 4450 2550 4450
 $EndSCHEMATC

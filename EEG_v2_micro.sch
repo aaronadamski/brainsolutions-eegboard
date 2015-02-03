@@ -1058,4 +1058,6 @@ Wire Wire Line
 	9900 4100 9900 3700
 Wire Wire Line
 	9600 3700 9600 4100
+Text Label 9900 4750 0    60   ~ 0
+TX_LINE
 $EndSCHEMATC
