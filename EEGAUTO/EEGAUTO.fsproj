@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project xsi:noNamespaceSchemaLocation="Project.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Version current="1"/>
+	<Format>Project</Format>
+	<Header>
+		<Program name="TopoR" version="6.0"/>
+		<GUID>{FDF4E437-10F5-429B-8CDA-E12E95767FC9}</GUID>
+		<Annotation>Project file</Annotation>
+	</Header>
+	<Document>
+		<LocalLibrary />
+		<Pcb>
+			<File path=".\EEG_v2_auto.fsx" Folder="-1" isopened="1"/>
+		</Pcb>
+		<Import>
+			<Specctra>
+			<Path name="E:\Users\Beugul\Documents\SeniorDesign\EEG_Project\brainsolutions-eegboard\EEG_v2_auto.dsn"/>
+			</Specctra>
+		</Import>
+		<ARouteSessions>
+			<Session name="EEG_v2_auto" date="2015-02-02 21:17:41" path=".\autoroute_EEG_v2_auto_150202211741\">
+			<File path=".\autoroute_EEG_v2_auto_150202211741\EEG_v2_auto_1346-14s.fsb" Folder="-1" isopened="0"/>
+			</Session>
+		</ARouteSessions>
+	</Document>
+</Project>
