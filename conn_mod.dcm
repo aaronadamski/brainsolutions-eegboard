@@ -1,6 +1,6 @@
-EESchema-DOCLIB  Version 2.0  Date: Sat 31 Jan 2015 10:22:49 PM PST
+EESchema-DOCLIB  Version 2.0  Date: 2/2/2015 5:00:51 PM
 #
-$CMP SW_PUSH_4pin
+$CMP SW_PUSH_4PIN
 D Push Button
 K Switch
 $ENDCMP

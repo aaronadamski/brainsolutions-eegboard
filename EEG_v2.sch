@@ -38,7 +38,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 4
 Title "Project Synapse Prototype Board"
-Date "2 feb 2015"
+Date "3 feb 2015"
 Rev "A.b"
 Comp "Senior Design 14-15"
 Comment1 ""
@@ -433,13 +433,9 @@ F 3 "~" H 4600 6150 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4700 5850 4700 5800
-Wire Wire Line
-	4700 5800 4600 5800
-Connection ~ 4600 5800
-Wire Wire Line
 	4700 6450 4700 6500
 Wire Wire Line
 	4700 6500 4600 6500
 Connection ~ 4600 6500
+NoConn ~ 4700 5850
 $EndSCHEMATC

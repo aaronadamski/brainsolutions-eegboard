@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Sat 31 Jan 2015 10:31:17 PM PST
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/2/2015 5:02:08 PM
 
 BeginCmp
 TimeStamp = /54B45B18/54C7F82B;
@@ -792,9 +792,9 @@ IdModule  = FC-135R_EPSON;
 EndCmp
 
 BeginCmp
-TimeStamp = /54B458F2/54B4E091;
+TimeStamp = /54B458F2/54D0201B;
 Reference = X2;
-ValeurCmp = 32-MHz;
+ValeurCmp = QUARTZCMS4_MOD;
 IdModule  = FA-128_EPSON;
 EndCmp
 
