@@ -833,12 +833,12 @@
     )
   )
 
-  (module SM0402 (layer F.Cu) (tedit 50A4E0BA) (tstamp 54CD4460)
+  (module SM0402 (layer F.Cu) (tedit 54D1A0C3) (tstamp 54CD4460)
     (at 291.719 163.068)
     (path /54B458F2/54B6FE82)
     (attr smd)
-    (fp_text reference L1 (at 0 0) (layer F.SilkS)
-      (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
+    (fp_text reference L1 (at 0.4445 -0.762) (layer F.SilkS)
+      (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_text value EMI (at 0.09906 0) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
