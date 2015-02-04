@@ -10,11 +10,13 @@
 	<Document>
 		<LocalLibrary />
 		<Pcb>
-			<File path=".\EEG_v2_auto.fsx" Folder="-1" isopened="1"/>
+			<File path=".\EEG_v2_auto.fsx" Folder="-1" isopened="0"/>
+			<File path=".\EEG_v2_anttest.fsx" Folder="-1" isopened="0"/>
 		</Pcb>
 		<Import>
 			<Specctra>
 			<Path name="E:\Users\Beugul\Documents\SeniorDesign\EEG_Project\brainsolutions-eegboard\EEG_v2_auto.dsn"/>
+			<Path name="E:\Users\Beugul\Documents\SeniorDesign\EEG_Project\brainsolutions-eegboard\EEG_v2_anttest.dsn"/>
 			</Specctra>
 		</Import>
 		<ARouteSessions>

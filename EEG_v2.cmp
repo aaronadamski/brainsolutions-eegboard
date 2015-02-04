@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/2/2015 6:24:50 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/3/2015 7:57:50 PM
 
 BeginCmp
 TimeStamp = /54B458F2/54D0318F;
@@ -18,14 +18,14 @@ BeginCmp
 TimeStamp = /54B45B18/54C4F28F;
 Reference = C2;
 ValeurCmp = 1uF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54C4F289;
 Reference = C3;
 ValeurCmp = 0.1uF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
@@ -53,14 +53,14 @@ BeginCmp
 TimeStamp = /54B45B18/54B45DB0;
 Reference = C7;
 ValeurCmp = 1uF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54B45DAA;
 Reference = C8;
 ValeurCmp = 0.1uF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
@@ -81,14 +81,14 @@ BeginCmp
 TimeStamp = /54B45B18/54B45DC2;
 Reference = C11;
 ValeurCmp = 1uF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54B45DBC;
 Reference = C12;
 ValeurCmp = 0.1uF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
@@ -123,35 +123,35 @@ BeginCmp
 TimeStamp = /54B45B18/54B45DDA;
 Reference = C17;
 ValeurCmp = 1uF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54B45DE0;
 Reference = C18;
 ValeurCmp = 0.1uF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54B45DE6;
 Reference = C19;
 ValeurCmp = 1uF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54B45DEC;
 Reference = C20;
 ValeurCmp = 1uF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54B45DF2;
 Reference = C21;
 ValeurCmp = 0.1uF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
@@ -179,14 +179,14 @@ BeginCmp
 TimeStamp = /54B45B18/54B45DFE;
 Reference = C25;
 ValeurCmp = 1uF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B45B18/54B45E04;
 Reference = C26;
 ValeurCmp = 1uF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
@@ -242,28 +242,28 @@ BeginCmp
 TimeStamp = /54B47D54/54B47F5B;
 Reference = C34;
 ValeurCmp = 1uF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B47D54/54B47F61;
 Reference = C35;
 ValeurCmp = 1uF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B47D54/54B47F67;
 Reference = C36;
 ValeurCmp = 1uF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B47D54/54B47F73;
 Reference = C37;
 ValeurCmp = 1uF;
-IdModule  = c_0603;
+IdModule  = Murata_GRM_0603;
 EndCmp
 
 BeginCmp
@@ -305,133 +305,133 @@ BeginCmp
 TimeStamp = /54B458F2/54D07F4C;
 Reference = C43;
 ValeurCmp = 1u;
-IdModule  = c_0402;
+IdModule  = Murata_GRM_0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B458F2/54D07EA8;
 Reference = C44;
 ValeurCmp = 1u;
-IdModule  = c_0402;
+IdModule  = Murata_GRM_0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B458F2/54D07EA2;
 Reference = C45;
 ValeurCmp = 1u;
-IdModule  = c_0402;
+IdModule  = Murata_GRM_0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B458F2/54B7039D;
 Reference = C46;
 ValeurCmp = 1u;
-IdModule  = c_0402;
+IdModule  = Murata_GRM_0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B458F2/54D07EAE;
 Reference = C47;
 ValeurCmp = 1u;
-IdModule  = c_0402;
+IdModule  = Murata_GRM_0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B458F2/54D07EB4;
 Reference = C48;
 ValeurCmp = 1u;
-IdModule  = c_0402;
+IdModule  = Murata_GRM_0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B458F2/54D07F52;
 Reference = C49;
 ValeurCmp = 1u;
-IdModule  = c_0402;
+IdModule  = Murata_GRM_0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B458F2/54D07F58;
 Reference = C50;
 ValeurCmp = 1u;
-IdModule  = c_0402;
+IdModule  = Murata_GRM_0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B458F2/54B4E367;
 Reference = C51;
 ValeurCmp = 15p;
-IdModule  = c_0402;
+IdModule  = Murata_GRM_0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B458F2/54B4E361;
 Reference = C52;
 ValeurCmp = 15p;
-IdModule  = c_0402;
+IdModule  = Murata_GRM_0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B458F2/54B4DAF5;
 Reference = C53;
 ValeurCmp = 1u;
-IdModule  = c_0402;
+IdModule  = Murata_GRM_0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B458F2/54B75989;
 Reference = C54;
 ValeurCmp = 47p;
-IdModule  = c_0402;
+IdModule  = Murata_GRM_0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B458F2/54B75968;
 Reference = C55;
 ValeurCmp = 47p;
-IdModule  = c_0402;
+IdModule  = Murata_GRM_0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B458F2/54C2ECFD;
 Reference = C56;
 ValeurCmp = 0.5p;
-IdModule  = c_0402;
+IdModule  = Murata_GRM_0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B458F2/54B4E0D9;
 Reference = C57;
 ValeurCmp = 12p;
-IdModule  = c_0402;
+IdModule  = Murata_GRM_0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B458F2/54B4E0DF;
 Reference = C58;
 ValeurCmp = 12p;
-IdModule  = c_0402;
+IdModule  = Murata_GRM_0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B458F2/54C2E982;
 Reference = C59;
 ValeurCmp = 1n;
-IdModule  = c_0402;
+IdModule  = Murata_GRM_0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B458F2/54CBFF8A;
 Reference = D1;
 ValeurCmp = LED_EL19-21SURC;
-IdModule  = SM0603;
+IdModule  = Everlight_LED;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B458F2/54CBFFB4;
 Reference = D2;
 ValeurCmp = LED_EL19-21SYGC;
-IdModule  = SM0603;
+IdModule  = Everlight_LED;
 EndCmp
 
 BeginCmp

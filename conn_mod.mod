@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  2/2/2015 8:06:20 PM
+PCBNEW-LibModule-V1  2/3/2015 7:56:48 PM
 # encoding utf-8
 Units mm
 $INDEX
@@ -11,8 +11,11 @@ DBV(R-PDSO-G5)
 DBV(R-PDSO-G6)
 DCK(R-PDSO-G5)
 DDC(R-PDSO-G5)
+Everlight_LED
+F930J107MBA
 FA-128_EPSON
 FC-135R_EPSON
+Murata_GRM_0402
 Murata_GRM_0603
 SIL-5x2
 SIL-8
@@ -224,7 +227,7 @@ Po -2.66 -0.8375
 $EndPAD
 $EndMODULE 47346-0001
 $MODULE 61729-0010BLF
-Po 0 0 0 15 54D038A5 00000000 ~~
+Po 0 0 0 15 54D1834C 00000000 ~~
 Li 61729-0010BLF
 Sc 0
 AR /54CDE318
@@ -235,9 +238,9 @@ T1 0 2.45 1 1 0 0.15 N V 21 N "USB_A"
 DS -6 0 -6 -5.8 0.15 21
 DS -6 -5.8 6 -5.8 0.15 21
 DS 6 -5.8 6 0 0.15 21
-DS 6 0 6 10.25 0.15 21
-DS 5.95 10.25 -6 10.25 0.15 21
-DS -6 10.25 -6 0 0.15 21
+DS 6 0 6 10.25 0.15 24
+DS 5.95 10.25 -6 10.25 0.15 24
+DS -6 10.25 -6 0 0.15 24
 $PAD
 Sh "1" C 1.5 1.5 0 0 0
 Dr 0.92 0 0
@@ -287,7 +290,7 @@ Li AN043
 Sc 0
 AR /54B458F2/54D0318F
 Op 0 0 0
-.LocalClearance -0.001
+.LocalClearance -0.1
 T0 9.65 -6.45 1 1 0 0.15 N V 21 N "A1"
 T1 -1.1 -6.2 1 1 0 0.15 N V 21 N "AN043"
 DS -2.25 -0.25 -2.25 -5.45 0.001 24
@@ -321,7 +324,7 @@ $PAD
 Sh "2" R 0.9 4.4 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "AGND"
 Po 12 -2.45
 $EndPAD
 $PAD
@@ -592,6 +595,68 @@ Ne 0 ""
 Po 0.95 1.35
 $EndPAD
 $EndMODULE DDC(R-PDSO-G5)
+$MODULE Everlight_LED
+Po 0 0 0 15 54D1987E 00000000 ~~
+Li Everlight_LED
+Sc 0
+AR 
+Op 0 0 0
+.LocalClearance 0.07
+T0 0 1.5 0.5 0.5 0 0.125 N V 21 N "Everlight_LED"
+T1 0 0.85 0.5 0.5 0 0.125 N V 21 N "VAL**"
+DS -0.15 -0.95 -0.7 -0.95 0.15 21
+DS 0.35 -0.95 0.95 -0.95 0.15 21
+DS -0.15 -1.25 -0.15 -0.65 0.15 21
+DS 0.35 -1.25 0.35 -0.65 0.15 21
+DS 0.35 -0.65 -0.1 -0.95 0.15 21
+DS -0.1 -0.95 0.35 -1.25 0.15 21
+$PAD
+Sh "1" R 0.8 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.75 0
+$EndPAD
+$PAD
+Sh "2" R 0.8 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.75 0
+$EndPAD
+$EndMODULE Everlight_LED
+$MODULE F930J107MBA
+Po 0 0 0 15 5434A2C2 00000000 ~~
+Li F930J107MBA
+Sc 0
+AR /5431E925
+Op 0 0 0
+T0 -0.3 0 0.25 0.25 900 0.015 N V 21 N "C5"
+T1 0.25 -0.05 0.25 0.25 900 0.015 N V 21 N "100uF"
+DS -1.3 -1.5 -1.3 1.5 0.15 21
+DS -1.8 -1.5 -1.8 1.5 0.15 21
+DS -1.8 1.5 1.8 1.5 0.15 21
+DS 1.8 1.5 1.8 -1.5 0.15 21
+DS 1.8 -1.5 -1.8 -1.5 0.15 21
+DS -2.25 1.75 -1.75 1.75 0.15 21
+DS -2 1.5 -2 2 0.15 21
+$PAD
+Sh "1" R 1.2 2.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "N-000004"
+Po -1.25 0
+.LocalClearance 0.07
+$EndPAD
+$PAD
+Sh "2" R 1.2 2.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "-2.5V"
+Po 1.25 -0.05
+.LocalClearance 0.07
+$EndPAD
+$EndMODULE F930J107MBA
 $MODULE FA-128_EPSON
 Po 0 0 0 15 54CC0A47 00000000 ~~
 Li FA-128_EPSON
@@ -656,6 +721,30 @@ Ne 0 ""
 Po 1.25 0
 $EndPAD
 $EndMODULE FC-135R_EPSON
+$MODULE Murata_GRM_0402
+Po 0 0 0 15 54D19668 00000000 ~~
+Li Murata_GRM_0402
+Sc 0
+AR 
+Op 0 0 0
+.LocalClearance 0.07
+T0 0 -0.85 0.5 0.5 0 0.125 N V 21 N "Murata_GRM_0402"
+T1 0 0.85 0.5 0.5 0 0.125 N V 21 N "VAL**"
+$PAD
+Sh "1" R 0.45 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.425 0
+$EndPAD
+$PAD
+Sh "2" R 0.45 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.425 0
+$EndPAD
+$EndMODULE Murata_GRM_0402
 $MODULE Murata_GRM_0603
 Po 0 0 0 15 54CD5B05 00000000 ~~
 Li Murata_GRM_0603
@@ -843,16 +932,16 @@ Po 8.89 0
 $EndPAD
 $EndMODULE SIL-8
 $MODULE SSSS810701
-Po 0 0 0 15 54CC0820 00000000 ~~
+Po 0 0 0 15 54D18374 00000000 ~~
 Li SSSS810701
 Sc 0
-AR 
+AR /54CBF41B
 Op 0 0 0
-T0 0 -4.05 1 1 0 0.15 N V 21 N "SSSS810701"
-T1 5.8 0 1 1 0 0.15 N V 21 N "VAL**"
-DS 0 1.3 0 2.8 0.15 21
-DS 0 2.8 1.3 2.8 0.15 21
-DS 1.3 2.8 1.3 1.3 0.15 21
+T0 0 -4.05 1 1 0 0.15 N V 21 N "SW1"
+T1 -0.508 4.064 1 1 0 0.15 N V 21 N "SWITCH_INV"
+DS 0 1.3 0 2.8 0.15 24
+DS 0 2.8 1.3 2.8 0.15 24
+DS 1.3 2.8 1.3 1.3 0.15 24
 DS 3.35 -1.3 -3.35 -1.3 0.15 21
 DS -3.35 -1.3 -3.35 1.3 0.15 21
 DS -3.35 1.3 3.35 1.3 0.15 21
@@ -875,62 +964,62 @@ $PAD
 Sh "1" R 0.7 1.5 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "/VBUS"
 Po -2.25 -2.25
 $EndPAD
 $PAD
 Sh "2" R 0.7 1.5 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 3 "VIN_RAW"
 Po 0.75 -2.25
 $EndPAD
 $PAD
 Sh "3" R 0.7 1.5 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "/BATT_+"
 Po 2.25 -2.25
 $EndPAD
 $EndMODULE SSSS810701
 $MODULE VQFN40
-Po 0 0 0 15 54CD4057 00000000 ~~
+Po 0 0 0 15 54D182BC 00000000 ~~
 Li VQFN40
 Sc 0
-AR 
+AR /54B458F2/54B4D13C
 Op 0 0 0
 .SolderMask 0.07
 .SolderPaste 0.07
 .LocalClearance 0.07
-T0 8.7 -5.1 1 1 0 0.15 N V 21 N "VQFN40"
-T1 3.5 -5.3 1 1 0 0.15 N V 21 N "VAL**"
+T0 8.7 -5.1 1 1 0 0.15 N V 21 N "U6"
+T1 3.5 -5.3 1 1 0 0.15 N V 21 N "CC2540"
 DC -3.85 -2.95 -3.65 -2.9 0.15 21
 $PAD
 Sh "1" O 1 0.28 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 24 "AGND"
 Po -3.05 -2.25
 $EndPAD
 $PAD
 Sh "2" O 1 0.28 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 18 "/Microcontroller/USB_P_Intr"
 Po -3.05 -1.75
 $EndPAD
 $PAD
 Sh "3" O 1 0.28 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 17 "/Microcontroller/USB_N_Intr"
 Po -3.05 -1.25
 $EndPAD
 $PAD
 Sh "4" O 1 0.28 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 19 "/Microcontroller/VDD_FILT"
 Po -3.05 -0.75
 $EndPAD
 $PAD
@@ -951,70 +1040,70 @@ $PAD
 Sh "7" O 1 0.28 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 15 "/Microcontroller/SW3"
 Po -3.05 0.75
 $EndPAD
 $PAD
 Sh "8" O 1 0.28 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 16 "/Microcontroller/SW4"
 Po -3.05 1.25
 $EndPAD
 $PAD
 Sh "9" O 1 0.28 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 9 "/Microcontroller/LED1"
 Po -3.05 1.75
 $EndPAD
 $PAD
 Sh "10" O 1 0.28 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 19 "/Microcontroller/VDD_FILT"
 Po -3.05 2.25
 $EndPAD
 $PAD
 Sh "11" O 0.28 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 10 "/Microcontroller/LED2"
 Po -2.25 3.05
 $EndPAD
 $PAD
 Sh "12" O 0.28 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 5 "/Analog Frontend/RESET"
 Po -1.75 3.05
 $EndPAD
 $PAD
 Sh "13" O 0.28 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 4 "/Analog Frontend/DRDY"
 Po -1.25 3.05
 $EndPAD
 $PAD
 Sh "14" O 0.28 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 3 "/Analog Frontend/DOUT"
 Po -0.75 3.05
 $EndPAD
 $PAD
 Sh "15" O 0.28 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "/Analog Frontend/DIN"
 Po -0.25 3.05
 $EndPAD
 $PAD
 Sh "16" O 0.28 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 14 "/Microcontroller/SCK"
 Po 0.25 3.05
 $EndPAD
 $PAD
@@ -1028,126 +1117,126 @@ $PAD
 Sh "18" O 0.28 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "/Analog Frontend/CS"
 Po 1.25 3.05
 $EndPAD
 $PAD
 Sh "19" O 0.28 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 6 "/Analog Frontend/START"
 Po 1.75 3.05
 $EndPAD
 $PAD
 Sh "20" O 0.28 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 11 "/Microcontroller/RESET_INTR"
 Po 2.25 3.05
 $EndPAD
 $PAD
 Sh "21" O 1 0.28 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 19 "/Microcontroller/VDD_FILT"
 Po 3.05 2.25
 $EndPAD
 $PAD
 Sh "22" O 1 0.28 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 22 "/Microcontroller/X2_1"
 Po 3.05 1.75
 $EndPAD
 $PAD
 Sh "23" O 1 0.28 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 23 "/Microcontroller/X2_3"
 Po 3.05 1.25
 $EndPAD
 $PAD
 Sh "24" O 1 0.28 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 19 "/Microcontroller/VDD_FILT"
 Po 3.05 0.75
 $EndPAD
 $PAD
 Sh "25" O 1 0.28 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 13 "/Microcontroller/RF_P"
 Po 3.05 0.25
 $EndPAD
 $PAD
 Sh "26" O 1 0.28 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 12 "/Microcontroller/RF_N"
 Po 3.05 -0.25
 $EndPAD
 $PAD
 Sh "27" O 1 0.28 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 19 "/Microcontroller/VDD_FILT"
 Po 3.05 -0.75
 $EndPAD
 $PAD
 Sh "28" O 1 0.28 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 19 "/Microcontroller/VDD_FILT"
 Po 3.05 -1.25
 $EndPAD
 $PAD
 Sh "29" O 1 0.28 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 19 "/Microcontroller/VDD_FILT"
 Po 3.05 -1.75
 $EndPAD
 $PAD
 Sh "30" O 1 0.28 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 25 "N-0000044"
 Po 3.05 -2.25
 $EndPAD
 $PAD
 Sh "31" O 0.28 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 19 "/Microcontroller/VDD_FILT"
 Po 2.25 -3.05
 $EndPAD
 $PAD
 Sh "32" O 0.28 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 21 "/Microcontroller/X1_2"
 Po 1.75 -3.05
 $EndPAD
 $PAD
 Sh "33" O 0.28 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 20 "/Microcontroller/X1_1"
 Po 1.25 -3.05
 $EndPAD
 $PAD
 Sh "34" O 0.28 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 7 "/Microcontroller/DC"
 Po 0.75 -3.05
 $EndPAD
 $PAD
 Sh "35" O 0.28 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 8 "/Microcontroller/DD"
 Po 0.25 -3.05
 $EndPAD
 $PAD
@@ -1175,193 +1264,193 @@ $PAD
 Sh "39" O 0.28 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 19 "/Microcontroller/VDD_FILT"
 Po -1.75 -3.05
 $EndPAD
 $PAD
 Sh "40" O 0.28 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 26 "N-0000051"
 Po -2.25 -3.05
 $EndPAD
 $PAD
-Sh "PAD" R 4.5 4.5 0 0 0
+Sh "41" R 4.5 4.5 0 0 0
 Dr 0 0 0
 At SMD N 00808000
 Ne 0 ""
 Po 0 0
 $EndPAD
 $PAD
-Sh "PAD" R 1.2 1.2 0 0 0
+Sh "" R 1.2 1.2 0 0 0
 Dr 0 0 0
 At SMD N 00080000
 Ne 0 ""
 Po 0 0
 $EndPAD
 $PAD
-Sh "PAD" R 1.2 1.2 0 0 0
+Sh "" R 1.2 1.2 0 0 0
 Dr 0 0 0
 At SMD N 00080000
 Ne 0 ""
 Po 1.5 0
 $EndPAD
 $PAD
-Sh "PAD" R 1.2 1.2 0 0 0
+Sh "" R 1.2 1.2 0 0 0
 Dr 0 0 0
 At SMD N 00080000
 Ne 0 ""
 Po 1.5 -1.5
 $EndPAD
 $PAD
-Sh "PAD" R 1.2 1.2 0 0 0
+Sh "" R 1.2 1.2 0 0 0
 Dr 0 0 0
 At SMD N 00080000
 Ne 0 ""
 Po 0 -1.5
 $EndPAD
 $PAD
-Sh "PAD" R 1.2 1.2 0 0 0
+Sh "" R 1.2 1.2 0 0 0
 Dr 0 0 0
 At SMD N 00080000
 Ne 0 ""
 Po -1.5 -1.5
 $EndPAD
 $PAD
-Sh "PAD" R 1.2 1.2 0 0 0
+Sh "" R 1.2 1.2 0 0 0
 Dr 0 0 0
 At SMD N 00080000
 Ne 0 ""
 Po -1.5 0
 $EndPAD
 $PAD
-Sh "PAD" R 1.2 1.2 0 0 0
+Sh "" R 1.2 1.2 0 0 0
 Dr 0 0 0
 At SMD N 00080000
 Ne 0 ""
 Po -1.5 1.5
 $EndPAD
 $PAD
-Sh "PAD" R 1.2 1.2 0 0 0
+Sh "" R 1.2 1.2 0 0 0
 Dr 0 0 0
 At SMD N 00080000
 Ne 0 ""
 Po 0 1.5
 $EndPAD
 $PAD
-Sh "PAD" R 1.2 1.2 0 0 0
+Sh "" R 1.2 1.2 0 0 0
 Dr 0 0 0
 At SMD N 00080000
 Ne 0 ""
 Po 1.5 1.5
 $EndPAD
 $PAD
-Sh "PAD" C 0.5 0.5 0 0 0
+Sh "41" C 0.5 0.5 0 0 0
 Dr 0.3 0 0
 At STD N 0060FFFF
 Ne 0 ""
 Po -0.5 -0.5
 $EndPAD
 $PAD
-Sh "PAD" C 0.5 0.5 0 0 0
+Sh "41" C 0.5 0.5 0 0 0
 Dr 0.3 0 0
 At STD N 0060FFFF
 Ne 0 ""
 Po 0.5 -0.5
 $EndPAD
 $PAD
-Sh "PAD" C 0.5 0.5 0 0 0
+Sh "41" C 0.5 0.5 0 0 0
 Dr 0.3 0 0
 At STD N 0060FFFF
 Ne 0 ""
 Po 0.5 0.5
 $EndPAD
 $PAD
-Sh "PAD" C 0.5 0.5 0 0 0
+Sh "41" C 0.5 0.5 0 0 0
 Dr 0.3 0 0
 At STD N 0060FFFF
 Ne 0 ""
 Po -0.5 0.5
 $EndPAD
 $PAD
-Sh "PAD" C 0.5 0.5 0 0 0
+Sh "41" C 0.5 0.5 0 0 0
 Dr 0.3 0 0
 At STD N 0060FFFF
 Ne 0 ""
 Po -1.5 0.5
 $EndPAD
 $PAD
-Sh "PAD" C 0.5 0.5 0 0 0
+Sh "41" C 0.5 0.5 0 0 0
 Dr 0.3 0 0
 At STD N 0060FFFF
 Ne 0 ""
 Po -1.5 -0.5
 $EndPAD
 $PAD
-Sh "PAD" C 0.5 0.5 0 0 0
+Sh "41" C 0.5 0.5 0 0 0
 Dr 0.3 0 0
-At STD N 0060FFFF
+At STD N 0068FFFF
 Ne 0 ""
 Po -1.5 -1.5
 $EndPAD
 $PAD
-Sh "PAD" C 0.5 0.5 0 0 0
+Sh "41" C 0.5 0.5 0 0 0
 Dr 0.3 0 0
 At STD N 0060FFFF
 Ne 0 ""
 Po -0.5 -1.5
 $EndPAD
 $PAD
-Sh "PAD" C 0.5 0.5 0 0 0
+Sh "41" C 0.5 0.5 0 0 0
 Dr 0.3 0 0
 At STD N 0060FFFF
 Ne 0 ""
 Po 0.5 -1.5
 $EndPAD
 $PAD
-Sh "PAD" C 0.5 0.5 0 0 0
+Sh "41" C 0.5 0.5 0 0 0
 Dr 0.3 0 0
 At STD N 0060FFFF
 Ne 0 ""
 Po 1.5 -1.5
 $EndPAD
 $PAD
-Sh "PAD" C 0.5 0.5 0 0 0
+Sh "41" C 0.5 0.5 0 0 0
 Dr 0.3 0 0
 At STD N 0060FFFF
 Ne 0 ""
 Po 1.5 -0.5
 $EndPAD
 $PAD
-Sh "PAD" C 0.5 0.5 0 0 0
+Sh "41" C 0.5 0.5 0 0 0
 Dr 0.3 0 0
 At STD N 0060FFFF
 Ne 0 ""
 Po 1.5 0.5
 $EndPAD
 $PAD
-Sh "PAD" C 0.5 0.5 0 0 0
+Sh "41" C 0.5 0.5 0 0 0
 Dr 0.3 0 0
 At STD N 0060FFFF
 Ne 0 ""
 Po 1.5 1.5
 $EndPAD
 $PAD
-Sh "PAD" C 0.5 0.5 0 0 0
+Sh "41" C 0.5 0.5 0 0 0
 Dr 0.3 0 0
 At STD N 0060FFFF
 Ne 0 ""
 Po 0.5 1.5
 $EndPAD
 $PAD
-Sh "PAD" C 0.5 0.5 0 0 0
+Sh "41" C 0.5 0.5 0 0 0
 Dr 0.3 0 0
 At STD N 0060FFFF
 Ne 0 ""
 Po -0.5 1.5
 $EndPAD
 $PAD
-Sh "PAD" C 0.5 0.5 0 0 0
+Sh "41" C 0.5 0.5 0 0 0
 Dr 0.3 0 0
 At STD N 0060FFFF
 Ne 0 ""
