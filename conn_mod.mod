@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  2/3/2015 8:55:19 PM
+PCBNEW-LibModule-V1  2/4/2015 10:11:29 AM
 # encoding utf-8
 Units mm
 $INDEX
@@ -21,6 +21,7 @@ SIL-5x2
 SIL-8
 SSSS810701
 VQFN40
+VQFN40_nodrill
 Vishay_CRCW_0603
 $EndINDEX
 $MODULE 2-1825910-7
@@ -285,7 +286,7 @@ Po 6.02 0
 $EndPAD
 $EndMODULE 61729-0010BLF
 $MODULE AN043
-Po 0 0 0 15 54D1A026 00000000 ~~
+Po 0 0 0 15 54D260CF 00000000 ~~
 Li AN043
 Sc 0
 AR /54B458F2/54D0318F
@@ -301,98 +302,98 @@ DS 12.45 -5.45 -1.65 -5.45 0.001 24
 $PAD
 Sh "1" R 0.5 0.5 0 0 1800
 Dr 0 0 0
-At SMD N 00888000
+At SMD N 00808000
 Ne 1 "/Microcontroller/ANTENNA"
 Po 9.9 0
 $EndPAD
 $PAD
 Sh "1" R 0.5 4.4 0 0 1800
 Dr 0 0 0
-At SMD N 00888000
+At SMD N 00808000
 Ne 1 "/Microcontroller/ANTENNA"
 Po 9.9 -2.45
 $EndPAD
 $PAD
 Sh "2" R 0.9 0.5 0 0 1800
 Dr 0 0 0
-At SMD N 00888000
+At SMD N 00808000
 Ne 2 "AGND"
 Po 12 0
 $EndPAD
 $PAD
 Sh "2" R 0.9 4.4 0 0 1800
 Dr 0 0 0
-At SMD N 00888000
+At SMD N 00808000
 Ne 2 "AGND"
 Po 12 -2.45
 $EndPAD
 $PAD
 Sh "" R 5 0.5 0 0 1800
 Dr 0 0 0
-At SMD N 00888000
+At SMD N 00808000
 Ne 0 ""
 Po 9.95 -4.9
 $EndPAD
 $PAD
 Sh "" R 0.5 2.64 0 0 1800
 Dr 0 0 0
-At SMD N 00888000
+At SMD N 00808000
 Ne 0 ""
 Po 7.7 -3.33
 $EndPAD
 $PAD
 Sh "" R 2 0.5 0 0 1800
 Dr 0 0 0
-At SMD N 00888000
+At SMD N 00808000
 Ne 0 ""
 Po 6.45 -2.26
 $EndPAD
 $PAD
 Sh "" R 0.5 2.64 0 0 1800
 Dr 0 0 0
-At SMD N 00888000
+At SMD N 00808000
 Ne 0 ""
 Po 5.2 -3.33
 $EndPAD
 $PAD
 Sh "" R 0.5 2.64 0 0 1800
 Dr 0 0 0
-At SMD N 00888000
+At SMD N 00808000
 Ne 0 ""
 Po 3 -3.33
 $EndPAD
 $PAD
 Sh "" R 0.5 2.64 0 0 1800
 Dr 0 0 0
-At SMD N 00888000
+At SMD N 00808000
 Ne 0 ""
 Po 0.5 -3.33
 $EndPAD
 $PAD
 Sh "" R 2.7 0.5 0 0 1800
 Dr 0 0 0
-At SMD N 00888000
+At SMD N 00808000
 Ne 0 ""
 Po 4.1 -4.9
 $EndPAD
 $PAD
 Sh "" R 2.7 0.5 0 0 1800
 Dr 0 0 0
-At SMD N 00888000
+At SMD N 00808000
 Ne 0 ""
 Po -0.6 -4.9
 $EndPAD
 $PAD
 Sh "" R 2 0.5 0 0 1800
 Dr 0 0 0
-At SMD N 00888000
+At SMD N 00808000
 Ne 0 ""
 Po 1.75 -2.26
 $EndPAD
 $PAD
 Sh "" R 0.5 3.94 0 0 1800
 Dr 0 0 0
-At SMD N 00888000
+At SMD N 00808000
 Ne 0 ""
 Po -1.7 -2.68
 $EndPAD
@@ -982,7 +983,7 @@ Po 2.25 -2.25
 $EndPAD
 $EndMODULE SSSS810701
 $MODULE VQFN40
-Po 0 0 0 15 54D182BC 00000000 ~~
+Po 0 0 0 15 54D25BC1 00000000 ~~
 Li VQFN40
 Sc 0
 AR /54B458F2/54B4D13C
@@ -990,7 +991,482 @@ Op 0 0 0
 .SolderMask 0.07
 .SolderPaste 0.07
 .LocalClearance 0.07
-T0 8.7 -5.1 1 1 0 0.15 N V 21 N "U6"
+T0 -0.762 4.445 1 1 0 0.15 N V 21 N "U6"
+T1 3.5 -5.3 1 1 0 0.15 N V 21 N "CC2540"
+DC -3.85 -2.95 -3.65 -2.9 0.15 21
+$PAD
+Sh "1" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 24 "AGND"
+Po -3.05 -2.25
+$EndPAD
+$PAD
+Sh "2" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 18 "/Microcontroller/USB_P_Intr"
+Po -3.05 -1.75
+$EndPAD
+$PAD
+Sh "3" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 17 "/Microcontroller/USB_N_Intr"
+Po -3.05 -1.25
+$EndPAD
+$PAD
+Sh "4" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 19 "/Microcontroller/VDD_FILT"
+Po -3.05 -0.75
+$EndPAD
+$PAD
+Sh "5" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.05 -0.25
+$EndPAD
+$PAD
+Sh "6" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.05 0.25
+$EndPAD
+$PAD
+Sh "7" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 15 "/Microcontroller/SW3"
+Po -3.05 0.75
+$EndPAD
+$PAD
+Sh "8" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 16 "/Microcontroller/SW4"
+Po -3.05 1.25
+$EndPAD
+$PAD
+Sh "9" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 9 "/Microcontroller/LED1"
+Po -3.05 1.75
+$EndPAD
+$PAD
+Sh "10" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 19 "/Microcontroller/VDD_FILT"
+Po -3.05 2.25
+$EndPAD
+$PAD
+Sh "11" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 10 "/Microcontroller/LED2"
+Po -2.25 3.05
+$EndPAD
+$PAD
+Sh "12" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 5 "/Analog Frontend/RESET"
+Po -1.75 3.05
+$EndPAD
+$PAD
+Sh "13" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 4 "/Analog Frontend/DRDY"
+Po -1.25 3.05
+$EndPAD
+$PAD
+Sh "14" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "/Analog Frontend/DOUT"
+Po -0.75 3.05
+$EndPAD
+$PAD
+Sh "15" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "/Analog Frontend/DIN"
+Po -0.25 3.05
+$EndPAD
+$PAD
+Sh "16" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 14 "/Microcontroller/SCK"
+Po 0.25 3.05
+$EndPAD
+$PAD
+Sh "17" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.75 3.05
+$EndPAD
+$PAD
+Sh "18" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "/Analog Frontend/CS"
+Po 1.25 3.05
+$EndPAD
+$PAD
+Sh "19" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 6 "/Analog Frontend/START"
+Po 1.75 3.05
+$EndPAD
+$PAD
+Sh "20" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 11 "/Microcontroller/RESET_INTR"
+Po 2.25 3.05
+$EndPAD
+$PAD
+Sh "21" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 19 "/Microcontroller/VDD_FILT"
+Po 3.05 2.25
+$EndPAD
+$PAD
+Sh "22" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 22 "/Microcontroller/X2_1"
+Po 3.05 1.75
+$EndPAD
+$PAD
+Sh "23" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 23 "/Microcontroller/X2_3"
+Po 3.05 1.25
+$EndPAD
+$PAD
+Sh "24" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 19 "/Microcontroller/VDD_FILT"
+Po 3.05 0.75
+$EndPAD
+$PAD
+Sh "25" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 13 "/Microcontroller/RF_P"
+Po 3.05 0.25
+$EndPAD
+$PAD
+Sh "26" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 12 "/Microcontroller/RF_N"
+Po 3.05 -0.25
+$EndPAD
+$PAD
+Sh "27" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 19 "/Microcontroller/VDD_FILT"
+Po 3.05 -0.75
+$EndPAD
+$PAD
+Sh "28" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 19 "/Microcontroller/VDD_FILT"
+Po 3.05 -1.25
+$EndPAD
+$PAD
+Sh "29" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 19 "/Microcontroller/VDD_FILT"
+Po 3.05 -1.75
+$EndPAD
+$PAD
+Sh "30" O 1 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 25 "N-0000044"
+Po 3.05 -2.25
+$EndPAD
+$PAD
+Sh "31" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 19 "/Microcontroller/VDD_FILT"
+Po 2.25 -3.05
+$EndPAD
+$PAD
+Sh "32" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 21 "/Microcontroller/X1_2"
+Po 1.75 -3.05
+$EndPAD
+$PAD
+Sh "33" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 20 "/Microcontroller/X1_1"
+Po 1.25 -3.05
+$EndPAD
+$PAD
+Sh "34" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 7 "/Microcontroller/DC"
+Po 0.75 -3.05
+$EndPAD
+$PAD
+Sh "35" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 8 "/Microcontroller/DD"
+Po 0.25 -3.05
+$EndPAD
+$PAD
+Sh "36" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 -3.05
+$EndPAD
+$PAD
+Sh "37" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.75 -3.05
+$EndPAD
+$PAD
+Sh "38" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 -3.05
+$EndPAD
+$PAD
+Sh "39" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 19 "/Microcontroller/VDD_FILT"
+Po -1.75 -3.05
+$EndPAD
+$PAD
+Sh "40" O 0.28 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 26 "N-0000051"
+Po -2.25 -3.05
+$EndPAD
+$PAD
+Sh "41" R 4.5 4.5 0 0 0
+Dr 0 0 0
+At SMD N 00808000
+Ne 24 "AGND"
+Po 0 0
+$EndPAD
+$PAD
+Sh "" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00080000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00080000
+Ne 0 ""
+Po 1.5 0
+$EndPAD
+$PAD
+Sh "" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00080000
+Ne 0 ""
+Po 1.5 -1.5
+$EndPAD
+$PAD
+Sh "" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00080000
+Ne 0 ""
+Po 0 -1.5
+$EndPAD
+$PAD
+Sh "" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00080000
+Ne 0 ""
+Po -1.5 -1.5
+$EndPAD
+$PAD
+Sh "" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00080000
+Ne 0 ""
+Po -1.5 0
+$EndPAD
+$PAD
+Sh "" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00080000
+Ne 0 ""
+Po -1.5 1.5
+$EndPAD
+$PAD
+Sh "" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00080000
+Ne 0 ""
+Po 0 1.5
+$EndPAD
+$PAD
+Sh "" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00080000
+Ne 0 ""
+Po 1.5 1.5
+$EndPAD
+$PAD
+Sh "41" C 0.5 0.5 0 0 0
+Dr 0.3 0 0
+At STD N 0080FFFF
+Ne 24 "AGND"
+Po -0.5 -0.5
+$EndPAD
+$PAD
+Sh "41" C 0.5 0.5 0 0 0
+Dr 0.3 0 0
+At STD N 0080FFFF
+Ne 24 "AGND"
+Po 0.5 -0.5
+$EndPAD
+$PAD
+Sh "41" C 0.5 0.5 0 0 0
+Dr 0.3 0 0
+At STD N 0080FFFF
+Ne 24 "AGND"
+Po 0.5 0.5
+$EndPAD
+$PAD
+Sh "41" C 0.5 0.5 0 0 0
+Dr 0.3 0 0
+At STD N 0080FFFF
+Ne 24 "AGND"
+Po -0.5 0.5
+$EndPAD
+$PAD
+Sh "41" C 0.5 0.5 0 0 0
+Dr 0.3 0 0
+At STD N 0080FFFF
+Ne 24 "AGND"
+Po -1.5 0.5
+$EndPAD
+$PAD
+Sh "41" C 0.5 0.5 0 0 0
+Dr 0.3 0 0
+At STD N 0080FFFF
+Ne 24 "AGND"
+Po -1.5 -0.5
+$EndPAD
+$PAD
+Sh "41" C 0.5 0.5 0 0 0
+Dr 0.3 0 0
+At STD N 0000FFFF
+Ne 24 "AGND"
+Po -1.5 -1.5
+$EndPAD
+$PAD
+Sh "41" C 0.5 0.5 0 0 0
+Dr 0.3 0 0
+At STD N 0080FFFF
+Ne 24 "AGND"
+Po -0.5 -1.5
+$EndPAD
+$PAD
+Sh "41" C 0.5 0.5 0 0 0
+Dr 0.3 0 0
+At STD N 0080FFFF
+Ne 24 "AGND"
+Po 0.5 -1.5
+$EndPAD
+$PAD
+Sh "41" C 0.5 0.5 0 0 0
+Dr 0.3 0 0
+At STD N 0080FFFF
+Ne 24 "AGND"
+Po 1.5 -1.5
+$EndPAD
+$PAD
+Sh "41" C 0.5 0.5 0 0 0
+Dr 0.3 0 0
+At STD N 0080FFFF
+Ne 24 "AGND"
+Po 1.5 -0.5
+$EndPAD
+$PAD
+Sh "41" C 0.5 0.5 0 0 0
+Dr 0.3 0 0
+At STD N 0080FFFF
+Ne 24 "AGND"
+Po 1.5 0.5
+$EndPAD
+$PAD
+Sh "41" C 0.5 0.5 0 0 0
+Dr 0.3 0 0
+At STD N 0080FFFF
+Ne 24 "AGND"
+Po 1.5 1.5
+$EndPAD
+$PAD
+Sh "41" C 0.5 0.5 0 0 0
+Dr 0.3 0 0
+At STD N 0080FFFF
+Ne 24 "AGND"
+Po 0.5 1.5
+$EndPAD
+$PAD
+Sh "41" C 0.5 0.5 0 0 0
+Dr 0.3 0 0
+At STD N 0080FFFF
+Ne 24 "AGND"
+Po -0.5 1.5
+$EndPAD
+$PAD
+Sh "41" C 0.5 0.5 0 0 0
+Dr 0.3 0 0
+At STD N 0080FFFF
+Ne 24 "AGND"
+Po -1.5 1.5
+$EndPAD
+$EndMODULE VQFN40
+$MODULE VQFN40_nodrill
+Po 0 0 0 15 54D25F23 00000000 ~~
+Li VQFN40_nodrill
+Sc 0
+AR /54B458F2/54B4D13C
+Op 0 0 0
+.SolderMask 0.07
+.SolderPaste 0.07
+.LocalClearance 0.07
+T0 -0.762 4.445 1 1 0 0.15 N V 21 N "U6"
 T1 3.5 -5.3 1 1 0 0.15 N V 21 N "CC2540"
 DC -3.85 -2.95 -3.65 -2.9 0.15 21
 $PAD
@@ -1343,119 +1819,7 @@ At SMD N 00080000
 Ne 0 ""
 Po 1.5 1.5
 $EndPAD
-$PAD
-Sh "41" C 0.5 0.5 0 0 0
-Dr 0.3 0 0
-At STD N 0060FFFF
-Ne 0 ""
-Po -0.5 -0.5
-$EndPAD
-$PAD
-Sh "41" C 0.5 0.5 0 0 0
-Dr 0.3 0 0
-At STD N 0060FFFF
-Ne 0 ""
-Po 0.5 -0.5
-$EndPAD
-$PAD
-Sh "41" C 0.5 0.5 0 0 0
-Dr 0.3 0 0
-At STD N 0060FFFF
-Ne 0 ""
-Po 0.5 0.5
-$EndPAD
-$PAD
-Sh "41" C 0.5 0.5 0 0 0
-Dr 0.3 0 0
-At STD N 0060FFFF
-Ne 0 ""
-Po -0.5 0.5
-$EndPAD
-$PAD
-Sh "41" C 0.5 0.5 0 0 0
-Dr 0.3 0 0
-At STD N 0060FFFF
-Ne 0 ""
-Po -1.5 0.5
-$EndPAD
-$PAD
-Sh "41" C 0.5 0.5 0 0 0
-Dr 0.3 0 0
-At STD N 0060FFFF
-Ne 0 ""
-Po -1.5 -0.5
-$EndPAD
-$PAD
-Sh "41" C 0.5 0.5 0 0 0
-Dr 0.3 0 0
-At STD N 0068FFFF
-Ne 0 ""
-Po -1.5 -1.5
-$EndPAD
-$PAD
-Sh "41" C 0.5 0.5 0 0 0
-Dr 0.3 0 0
-At STD N 0060FFFF
-Ne 0 ""
-Po -0.5 -1.5
-$EndPAD
-$PAD
-Sh "41" C 0.5 0.5 0 0 0
-Dr 0.3 0 0
-At STD N 0060FFFF
-Ne 0 ""
-Po 0.5 -1.5
-$EndPAD
-$PAD
-Sh "41" C 0.5 0.5 0 0 0
-Dr 0.3 0 0
-At STD N 0060FFFF
-Ne 0 ""
-Po 1.5 -1.5
-$EndPAD
-$PAD
-Sh "41" C 0.5 0.5 0 0 0
-Dr 0.3 0 0
-At STD N 0060FFFF
-Ne 0 ""
-Po 1.5 -0.5
-$EndPAD
-$PAD
-Sh "41" C 0.5 0.5 0 0 0
-Dr 0.3 0 0
-At STD N 0060FFFF
-Ne 0 ""
-Po 1.5 0.5
-$EndPAD
-$PAD
-Sh "41" C 0.5 0.5 0 0 0
-Dr 0.3 0 0
-At STD N 0060FFFF
-Ne 0 ""
-Po 1.5 1.5
-$EndPAD
-$PAD
-Sh "41" C 0.5 0.5 0 0 0
-Dr 0.3 0 0
-At STD N 0060FFFF
-Ne 0 ""
-Po 0.5 1.5
-$EndPAD
-$PAD
-Sh "41" C 0.5 0.5 0 0 0
-Dr 0.3 0 0
-At STD N 0060FFFF
-Ne 0 ""
-Po -0.5 1.5
-$EndPAD
-$PAD
-Sh "41" C 0.5 0.5 0 0 0
-Dr 0.3 0 0
-At STD N 0060FFFF
-Ne 0 ""
-Po -1.5 1.5
-$EndPAD
-$EndMODULE VQFN40
+$EndMODULE VQFN40_nodrill
 $MODULE Vishay_CRCW_0603
 Po 0 0 0 15 54CD5711 00000000 ~~
 Li Vishay_CRCW_0603
